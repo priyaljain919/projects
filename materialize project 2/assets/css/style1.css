@@ -1,0 +1,274 @@
+.navbar-fixed {
+  height: 83px !important;
+  z-index: 965 !important; }
+
+.nav-wrapper .brand-logo {
+  display: block;
+  top: -3px;
+  left: 28% !important; }
+  .nav-wrapper .brand-logo img {
+    height: auto;
+    margin-top: 13px;
+    width: 107px;
+    max-width: 100%; }
+
+.WittyFeedTransparent {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+  height: 50px !important;
+  box-shadow: none; }
+  .WittyFeedTransparent a img {
+    width: 50px;
+    height: 30px;
+    margin-top: 10px; }
+  .WittyFeedTransparent svg {
+    fill: white;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px; }
+
+.WittyFeedSidebarFixed {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+  position: fixed; }
+
+.sidenav {
+  transition: 0.5s !important;
+  width: 278px !important; }
+  .sidenav .sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 995 !important;
+    display: none; }
+
+.wittyfeedsidenav div:first-child {
+  height: 57px;
+  padding: 13px 15px; }
+.wittyfeedsidenav .wittyfeedsidenavcontent li {
+  border-bottom: 0.5px solid lightgrey; }
+  .wittyfeedsidenav .wittyfeedsidenavcontent li a {
+    text-transform: uppercase;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: normal !important; }
+
+.wittyfeedsidenavfooter {
+  height: 125px;
+  padding: 15px 0 10px; }
+  .wittyfeedsidenavfooter ul li {
+    display: inline-block !important; }
+    .wittyfeedsidenavfooter ul li a {
+      color: white !important;
+      padding: 0 5px !important;
+      height: 0px;
+      line-height: 1.3; }
+  .wittyfeedsidenavfooter p {
+    font-size: 14px !important;
+    opacity: 0.4 !important;
+    margin-top: 5px !important; }
+
+.WittyFeedFooter {
+  margin: auto;
+  float: none;
+  position: fixed;
+  bottom: -15;
+  right: 0;
+  left: 0; }
+  .WittyFeedFooter ul {
+    display: flex; }
+    .WittyFeedFooter ul li {
+      display: inline-block;
+      width: 100%;
+      height: 40px; }
+      .WittyFeedFooter ul li:nth-child(1) {
+        background-color: #507DBE; }
+      .WittyFeedFooter ul li:nth-child(2) {
+        background-color: #59ADEB; }
+      .WittyFeedFooter ul li:nth-child(3) {
+        background-color: #26D367; }
+      .WittyFeedFooter ul li:nth-child(4) {
+        background-color: #2F8ADE; }
+      .WittyFeedFooter ul li:nth-child(5) {
+        background-color: #9e9e9e; }
+      .WittyFeedFooter ul li a {
+        padding: 9px 0;
+        text-align: center; }
+        .WittyFeedFooter ul li a i {
+          padding-top: 5px;
+          width: 100%; }
+
+.WittyFeedScrollBtn {
+  position: fixed;
+  bottom: 100px;
+  left: 0;
+  right: 0; }
+  .WittyFeedScrollBtn a {
+    padding: 6px 15px 7px 15px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    font-size: 13px;
+    border: 0px;
+    line-height: 15px;
+    background-color: #DB8443; }
+    .WittyFeedScrollBtn a img {
+      width: 15px;
+      height: 15px;
+      position: relative;
+      top: 3px;
+      margin-right: 5px;
+      left: 0; }
+
+.WittyFeedAdvertise {
+  position: relative;
+  color: lightgrey; }
+  .WittyFeedAdvertise .WittyFeedDashedLine {
+    border-top-style: dashed;
+    border-top-width: thin;
+    border-color: #979797;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 11.2px;
+    z-index: -9; }
+  .WittyFeedAdvertise span {
+    background-color: white;
+    font-size: 15px;
+    text-transform: uppercase; }
+  .WittyFeedAdvertise .WittyFeedLine::before {
+    border-top-style: dashed;
+    border-top-width: thin;
+    border-color: #979797;
+    position: absolute;
+    content: '';
+    margin-top: 17px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: -9; }
+  .WittyFeedAdvertise p {
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto; }
+  .WittyFeedAdvertise .WittyFeedAdvertisebtn {
+    background-color: #056ebd;
+    border-radius: 3px;
+    padding: 2px 9px;
+    font-size: .9rem; }
+
+.WittyFeedSectionStyle {
+  margin-top: 10px; }
+  .WittyFeedSectionStyle h3 {
+    font-size: 20px;
+    font-weight: bold; }
+
+.WittyFeedParaStyle p {
+  font-size: 19px;
+  opacity: 0.7; }
+
+.WittyFeedImgBlock, .WittyFeedCoverImgSection img {
+  background-size: cover;
+  width: 100%; }
+
+.WittyFeedCoverImgSection {
+  padding: 0 !important; }
+
+.WittyFeedAdvertiseSection {
+  margin-top: 10px; }
+
+.WittyFeedSeparatorLine {
+  position: relative;
+  opacity: 0.3; }
+
+.clearfix {
+  clear: both; }
+
+.WittyFeedImgSection {
+  position: relative;
+  padding-top: 50.2%;
+  background-size: cover;
+  display: block;
+  background-position: center; }
+
+.WittyFeedCoverImage {
+  position: relative;
+  height: 0;
+  width: auto;
+  display: block;
+  clear: both;
+  margin-top: 20px;
+  padding-bottom: 50.2% !important; }
+  .WittyFeedCoverImage .WittyFeedCoverStyle {
+    margin: auto;
+    height: auto;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+    right: 15px;
+    padding: 0px 0px !important;
+    z-index: 996; }
+    .WittyFeedCoverImage .WittyFeedCoverStyle a {
+      width: 32px;
+      height: 32px;
+      background-size: cover;
+      background-position: 50%;
+      border-radius: 50%; }
+    .WittyFeedCoverImage .WittyFeedCoverStyle .WittyFeedCoverPara {
+      margin-top: 0px;
+      font-size: 11px;
+      float: left;
+      padding-left: 8px; }
+      .WittyFeedCoverImage .WittyFeedCoverStyle .WittyFeedCoverPara span {
+        color: white;
+        line-height: 1.3;
+        display: block; }
+        .WittyFeedCoverImage .WittyFeedCoverStyle .WittyFeedCoverPara span:nth-child(1) {
+          font-weight: bold; }
+  .WittyFeedCoverImage::after {
+    content: '';
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0; }
+
+.WittyFeedButton {
+  margin-top: 20px; }
+  .WittyFeedButton a {
+    background-color: #ed3624;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 3px;
+    padding: 3px 13px; }
+
+.WittyFeedPara {
+  margin-top: 20px; }
+  .WittyFeedPara h1 {
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin: 0; }
+  .WittyFeedPara p {
+    font-size: 21px;
+    margin-top: 5px; }
+
+.WittyFeedMargin {
+  margin-top: 5px; }
+
+.WittyFeedParaSection {
+  margin-top: 20px; }
+  .WittyFeedParaSection p:first-of-type::first-letter {
+    font-size: 70px;
+    color: #046fc2;
+    opacity: 0.75;
+    float: left;
+    margin-top: -22px;
+    margin-right: 7px; }
+
+/*# sourceMappingURL=style1.css.map */

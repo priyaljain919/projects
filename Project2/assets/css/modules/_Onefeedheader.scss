@@ -1,0 +1,36 @@
+$whitecolor:#ffffff;
+$lightercolor:lighten($whitecolor,50%);
+
+@mixin Onefeedheader{
+		background:none;
+		color:white;
+		font-family: Josefin Sans;
+		font-size: 36px;
+        opacity: 0.9;
+		font-weight: bold;
+	}
+
+@mixin Onefeedheadercontent{
+
+		
+    	 color: $lightercolor;
+    	font-family: $onefeedfont;
+        opacity: 0.9;
+
+}
+
+@mixin Onefeedloginbtn{
+				height: 34px;
+    			margin-top: 9px;
+    			padding-top: 6px;
+    			width: 116px;
+   				 opacity: 0.9;
+    			border-radius: 3px;
+    			background-color:#373737;
+    			font-weight: normal !important;
+    			/* color: white; */
+    			color: white;
+}
+
+
+		

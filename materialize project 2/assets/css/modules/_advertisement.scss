@@ -1,0 +1,43 @@
+.WittyFeedAdvertise{
+		    position: relative;
+	  		color:lightgrey;
+		.WittyFeedDashedLine{
+  			    border-top-style: dashed;
+			    border-top-width: thin;
+			    border-color: #979797;
+			    position: absolute;
+			    width: 100%;
+			    left: 0;
+			    right: 0;
+			    top: 11.2px;
+			    z-index: -9;
+	}
+  		span{
+  			background-color: white;
+  			font-size:15px;
+  			text-transform: uppercase;
+  		}
+  		.WittyFeedLine::before{
+  			    border-top-style: dashed;
+			    border-top-width: thin;
+			    border-color: #979797;
+			    position: absolute;
+			    content: '';
+			    margin-top: 17px;
+			    width: 100%;
+			    left: 0;
+			    right: 0;
+			  	z-index: -9;
+  		}
+  		p{
+  			font-weight: bold;
+  			font-size:18px;
+  			margin: auto;
+  		}
+  		.WittyFeedAdvertisebtn{
+  			background-color: #056ebd;
+		    border-radius: 3px;
+		    padding: 2px 9px;
+		    font-size: .9rem;
+		}
+  	}

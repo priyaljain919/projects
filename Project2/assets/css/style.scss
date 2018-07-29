@@ -1,0 +1,529 @@
+@import "modules/Onefeedheader";
+@import "modules/navbar";
+@import "modules/Onefeedsectionheading";
+@import "modules/Onefeedborderstyle";
+@import "modules/dropdownheader";
+@import "modules/Onefeedslider";
+@import "modules/Onefeedfooter";
+@import "modules/Onefeedformheader1";
+$fontsize1:36px;
+$fontsizesmall:16px;
+$onefeedfont:'Lato', sans-serif;
+$whitecolor:#ffffff;
+$lightercolor:lighten($whitecolor,50%); 
+
+%Onefeedmobileicon{
+	height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: -5px;	
+}
+
+.Onefeedmobilefeature{
+
+		font-family: $onefeedfont;
+		font-size: 20px;
+		font-weight: bold;
+		
+		margin-top: 28px;
+}
+%OnefeedfeatureContent{
+
+		font-family: $onefeedfont;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 0.1;
+		text-align: center;
+		margin-top: 20px;
+}
+%Onefeedmobilecontent{
+
+		font-family: $onefeedfont;
+		font-size:16px;
+		font-weight:normal;
+		width:350px;
+}
+@mixin Onefeedfeatureheader{
+	font-size: 18px;
+			font-family: $onefeedfont;
+			font-weight: normal;
+			text-align: center;
+			 width:100%;
+    		margin:auto;
+}
+@mixin Onefeedcontentsliderheader{
+			font-size: 24px;
+			font-family: $onefeedfont;
+			text-align: center;
+			font-weight: bold;
+}
+@mixin Onefeedgetintouchicons{
+	height: 25px;	width: 25px;
+	    margin-bottom: 5px;
+    margin-right: 2%
+}
+.layer{
+	    background-color: rgba(116, 99, 94, 0.84);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.backgroundImage{
+	
+	background-size: cover;
+	height: 680px;
+}
+.onefeednav1{
+	padding-left: 27px;
+}
+
+
+.onefeedimg {	
+		height: 600px;	
+		background-size: cover;
+
+	}
+.onefeedimg2{
+
+	margin-top: 80px;
+    height: 483px;
+   	width: 282px;
+    margin-left: 48px;
+}
+
+
+.OnefeedMobileIconborder{
+
+	height: 60px;
+    width: 60px;
+    /* margin-top: 10px; */
+    margin-left: -4px;
+    display: block;
+    margin-top: 12px;
+    border-radius: 100px;	background-color: #F9F9F9;
+
+		img{
+
+	@extend %Onefeedmobileicon;
+
+	}
+
+
+	
+}
+.Onefeedmobilecontent{
+	margin-left: 20px;
+	h3{
+		@extend .Onefeedmobilefeature;
+	}
+	p{
+		@extend %Onefeedmobilecontent;
+	}
+}
+
+.Onefeedfeature{
+	margin-top: 50px;
+	height: 456px;
+	background-size: cover;
+	background-color: #E8EDF1;
+}
+.Onefeedfeatureheader{
+	h3{
+		font-family: $onefeedfont;
+		font-size:24px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 35px;
+	}
+	p{
+			@include Onefeedfeatureheader;
+	}
+	
+
+}
+.Onefeedfeaturecontent{
+
+	margin-top: 37px;
+	p{
+		    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+    width: none !important;
+    margin: none !important;
+    padding-top: 5px;
+		
+	}
+
+	h3{
+		@extend %OnefeedfeatureContent;
+	}
+	.Onefeedimagefeature{
+
+	 height: 95px;
+    width: 95px;
+    border-radius: 100px;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 14px;
+    text-align: center;
+
+	}
+	
+}
+.Onefeedcalculatemoney{
+	    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    /* position: absolute; */
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.Onefeedcalculatemoneycontent{
+	h3{
+
+	@include Onefeedheadercontent;
+	
+	color: $lightercolor ;
+    font-family: "Lato", sans-serif;
+    width: 61% ;
+    font-size: 57px;
+    bottom: -6px;
+    opacity:0.9;
+   
+	}
+
+	
+}
+
+
+
+.onefeedmoneycontent1{
+	
+
+	p{
+		@include Onefeedheadercontent;
+		
+    
+    opacity: 0.4;
+    text-align: center;
+    margin-top: 19px;
+    font-size: 48px;
+    	
+    	
+	}
+	.Onefeedmoneycontent{
+		height: 49.4px;	
+		width: 100%;	
+		border-radius: 3px;
+			background-color: #FFFFFF
+	}
+
+	.col-lg-3{
+		
+			  
+    			margin-left: 46px;
+    			    margin-top: 27px;
+		.form-group{
+			width: 175px;	
+			border-radius: 3px;	
+			background-color: #FFFFFF;
+			height: 49.4px;
+
+			.form-control{
+				height:50px !important;
+			}
+			
+
+		}
+	}
+
+.Onefeeddropdown{
+
+	a{
+			padding-left: 0px !important;
+    		padding-top: 14px !important;
+
+		}
+
+	
+
+}
+
+
+	
+
+
+}
+
+.Onefeedcalculatemoneymargintop{
+	margin-top: 40px;
+}
+.Onefeedgetamountbtn{
+	
+       margin-top: 24px;
+    
+	a{
+		height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #EEA828;
+    color: white;
+        padding-top: 13px;
+
+     &:hover{
+     		height: 50px;	
+     		width: 100%;	
+     		border-radius: 3px;	
+     		background-color: #EEA828;
+		color:white;
+		padding-top: 13px;
+
+     }
+	}
+	/* a:hover{
+		height: 50px;	width: 100%;	border-radius: 3px;	background-color: #EEA828;
+		color:white;
+		padding-top: 13px;
+	} */
+}
+
+
+.Onefeeddistributepartner{
+		height: 294px;
+		background-color: #EFF3F6;
+		background-size: cover;
+		.Onefeedpartner{
+		
+
+			h3{
+			font-size: 24px;
+			font-family: $onefeedfont;
+			text-align: center;
+			font-weight: bold;
+		}
+		p{
+			@include Onefeedfeatureheader;
+		}
+		}
+		
+}
+
+.Onefeedpartnerimages{
+	li{
+		display:inline-block;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}
+
+
+.Onefeedpartnerimg1{
+		height: 80px;	width: 183px;
+		background-color: #EFF3F6;
+}
+.Onefeedpartnerimg2{
+	@extend .Onefeedpartnerimg1;
+	
+	width: 194.12px !important;
+}
+.Onefeedpartnerimg3{
+	@extend .Onefeedpartnerimg1;
+	
+	width: 113px !important;
+}
+.Onefeedpartnerimg4{
+	@extend .Onefeedpartnerimg1;
+
+	width: 289px !important;
+}
+.Onefeedpartnerimg5{
+	@extend .Onefeedpartnerimg1;
+	width: 229px;
+	
+}
+.onefeedpartnericons{
+	margin-top:30px;
+}
+
+.Onefeedcontent{
+
+	.Onefeedheightslider{
+		height:531px;
+	}
+		.OnefeedDiscover{
+			text-transform: uppercase;
+			font-size: 24px;
+			height: 70px;	
+			width: 333px;	
+			border-radius: 3px;	
+			background-color: #E6873B;
+			 position: relative;
+    		bottom: 153px;
+    		display: block;
+    		margin-left: auto;
+    		color: white;
+    		margin-right: auto;
+
+    		i{
+    			font-size: 30px;
+    			margin-left: 20px;
+    			color:white;
+    			padding-top: 10px;
+    		}
+		}
+
+	}
+.Onefeedcontentslider{
+
+	margin-top: 20px;
+	h3{
+		@include Onefeedcontentsliderheader;
+	}
+	p{
+		@include Onefeedfeatureheader;
+	}
+}
+
+.Onefeedgetintouch{
+	height: 600px;	
+	background-size: cover;	
+	opacity: 0.9;	
+	background-color: #1774BC;
+	
+
+	h3{
+		@include Onefeedcontentsliderheader;
+		color:white;
+	}
+	p{
+		@include Onefeedfeatureheader;
+		color:white;
+
+	}
+}
+.Onefeedgetintouchicon{
+
+	margin-top: 10px;
+
+	.OnefeedGetintouchicons1{
+
+	li{
+		img{
+			@include Onefeedgetintouchicons;
+		}
+		margin-top: 10px;
+		color:white;
+		font-size: 18px;
+		margin-top: 10px;
+		font-weight: normal !important;
+		
+		
+	}
+	}
+	img{
+			@include Onefeedgetintouchicons;
+		}
+
+	
+		
+	
+	a:hover{
+		color:white !important;
+		font-size: 18px !important;
+		box-shadow: none;
+		text-decoration: none;
+		font-weight: normal !important;
+		
+	}
+	p{
+		@include Onefeedfeatureheader;
+		color:white;
+		text-align: left !important;
+		font-weight: normal !important;
+		 margin: 0;
+    	width: 320px;
+   		 opacity: 0.7;
+
+	}
+}
+
+
+::placeholder{
+	height: 17px;	
+	width: 151px;	
+	opacity: 0.5;	
+	color: #000000;
+	font-family: 'Lato', sans-serif;	
+	font-size: 14px;	
+	line-height: 17px;
+}
+.onefeedimage{
+	height: 13.83px;	
+	width: 14px;	
+	opacity: 0.7;
+	float:right;
+	margin-top: 3px;
+}
+
+
+.OnefeedDiscover{
+	text-transform: uppercase;
+    font-size: 19px;
+    height: 55px;
+    width: 237px;
+    padding-top: 1px;
+    margin-left: auto;
+    border-radius: 3px;
+    background-color: #E6873B;
+    color: white;
+    /* margin-right: auto; */
+    margin-right: auto;
+    display: block;
+
+    		i{
+    			font-size: 30px;
+    			margin-left: 20px;
+    			color:white;
+    			padding-top: 10px;
+    		}
+		}
+		.OnefeedDiscover:hover{
+	text-transform: uppercase;
+    font-size: 19px;
+    height: 55px;
+    width: 237px;
+    padding-top: 1px;
+    margin-left: auto;
+    border-radius: 3px;
+    background-color: #E6873B;
+    color: white;
+    /* margin-right: auto; */
+    margin-right: auto;
+    display: block;
+
+    		i{
+    			font-size: 30px;
+    			margin-left: 20px;
+    			color:white;
+    			padding-top: 10px;
+    		}
+		}
+
+.Onefeedcontent{
+
+
+    height: 528px;
+
+}
+
+ .Onefeedheight{
+ 	height:480px;
+ }
+
+

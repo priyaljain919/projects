@@ -1,0 +1,865 @@
+.Onefeedsection {
+  margin-top: 20px; }
+  .Onefeedsection ul li {
+    color: white; }
+    .Onefeedsection ul li a {
+      background: none;
+      color: white;
+      font-family: Josefin Sans;
+      font-size: 36px;
+      opacity: 0.9;
+      font-weight: bold; }
+  .Onefeedsection ul li:hover {
+    background: none;
+    color: white; }
+    .Onefeedsection ul li:hover a:hover {
+      background: none;
+      color: white;
+      font-family: Josefin Sans;
+      font-size: 36px;
+      opacity: 0.9;
+      font-weight: bold; }
+  .Onefeedsection .navbar-right {
+    margin-right: 5px; }
+    .Onefeedsection .navbar-right li {
+      padding-right: 20px; }
+      .Onefeedsection .navbar-right li a {
+        font-size: 16px !important;
+        font-family: "Lato", sans-serif;
+        font-weight: normal !important;
+        color: white; }
+      .Onefeedsection .navbar-right li a:hover {
+        font-size: 16px !important;
+        font-family: "Lato", sans-serif;
+        font-weight: normal !important;
+        color: white; }
+      .Onefeedsection .navbar-right li .OnefeedLogin {
+        height: 34px;
+        margin-top: 9px;
+        padding-top: 6px;
+        width: 116px;
+        opacity: 0.9;
+        border-radius: 3px;
+        background-color: #373737;
+        font-weight: normal !important;
+        /* color: white; */
+        color: white; }
+      .Onefeedsection .navbar-right li .OnefeedLogin:hover {
+        height: 34px;
+        margin-top: 9px;
+        padding-top: 6px;
+        width: 116px;
+        opacity: 0.9;
+        border-radius: 3px;
+        background-color: #373737;
+        font-weight: normal !important;
+        /* color: white; */
+        color: white; }
+
+.Onefeedsectionheader .Onefeedsectioncontent {
+  				   /*  margin-top: 126px;
+      				margin-left: 10px; */ }
+.Onefeedsectionheader .onefeedsmallsection {
+  position: relative;
+  top: 180px; }
+.Onefeedsectionheader h2 {
+  background: none;
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 36px;
+  opacity: 0.9;
+  font-weight: bold;
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 0.9;
+  font-size: 36px;
+  font-weight: 600;
+  font-weight: normal !important; }
+.Onefeedsectionheader h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 0.9;
+  font-size: 72px;
+  width: 52%;
+  font-weight: 900px;
+  font-weight: bold; }
+.Onefeedsectionheader p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 0.9;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  font-weight: normal !important;
+  text-align: center; }
+.Onefeedsectionheader img {
+  height: 38px;
+  width: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.onefeed1 h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 0.9;
+  margin-top: 62px;
+  font-size: 72px;
+  font-weight: 900px;
+  text-align: center !important;
+  color: black !important;
+  font-weight: bold; }
+.onefeed1 h1.Onefeedbordersection {
+  border-bottom: 5px solid #ff000000;
+  display: inline-block;
+  position: relative; }
+.onefeed1 .Onefeedbordersection::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 47%;
+  right: 23px;
+  /* left: -72px; */
+  bottom: -9px;
+  top: 29px;
+  /* padding-left: 10px; */
+  right: 168px;
+  /* background: white; */
+  border-bottom: 5px solid red; }
+.onefeed1 .Onefeedbordersection::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 53%;
+  bottom: -5px;
+  right: 0px;
+  border-bottom: 5px solid #fff; }
+.onefeed1 p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  margin-top: 10px;
+  width: 585px; }
+
+.borderdashed {
+  border-bottom: 1px dashed white;
+  padding-top: 18px;
+  opacity: 0.3 !important;
+  width: 40% !important; }
+
+.dropdown1 {
+  height: 49.4px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #FFFFFF !important;
+  color: #ccc; }
+  .dropdown1 img {
+    height: 13.83px;
+    width: 14px;
+    opacity: 0.7;
+    float: right;
+    margin-top: 3px; }
+
+.dropdown1:link {
+  height: 49.4px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #FFFFFF !important;
+  color: #ccc; }
+  .dropdown1:link img {
+    height: 13.83px;
+    width: 14px;
+    opacity: 0.7;
+    float: right;
+    margin-top: 3px; }
+
+.dropdown-menu {
+  min-width: 175px !important;
+  left: 15px;
+  top: 95% !important;
+  padding-left: 12px; }
+  .dropdown-menu li a {
+    font-size: 14px !important;
+    color: black !important;
+    font-weight: normal !important; }
+  .dropdown-menu li a:hover {
+    font-size: 14px !important;
+    color: black !important;
+    font-weight: normal !important; }
+
+.slider {
+  padding-top: 20px;
+  margin: auto;
+  clear: both; }
+
+.slick-slide {
+  margin: 0px 18px; }
+
+.slick-slide img {
+  width: 198px;
+  height: 150px; }
+
+.slider, .Item {
+  width: 85%;
+  height: 79%;
+  text-align: center;
+  color: #fff; }
+
+.slick-prev::before,
+.slick-next::before {
+  color: white !important;
+  background-color: blue !important;
+  content: '' !important; }
+
+.slick-next {
+  color: white;
+  background-color: orange !important;
+  border-radius: 50px; }
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 63% !important;
+  min-height: 1px; }
+
+.fa-long-arrow-left {
+  color: black;
+  float: left;
+  font-size: 40px;
+  position: absolute;
+  left: -80px;
+  /* margin-left: 500px; */
+  top: 111px; }
+
+.slickarrowright {
+  color: white;
+  position: right;
+  position: absolute;
+  float: right;
+  /* margin-left: 500px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 9px;
+  font-size: 40px;
+  top: 90px;
+  right: -129px; }
+
+.slickarrowright:hover {
+  color: white;
+  position: right;
+  position: absolute;
+  float: right;
+  /* margin-left: 500px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 9px;
+  font-size: 40px;
+  border-radius: 50px;
+  background-color: #E6873B;
+  top: 90px;
+  right: -129px; }
+
+.Onefeedslider1 .Onefeedbtnslider1 {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  color: white !important;
+  width: 60px;
+  border-radius: 3px;
+  background-color: #09E370;
+  border-style: none;
+  padding-top: 2px; }
+.Onefeedslider1 .Onefeedbtnslider1:hover {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  width: 60px;
+  color: white;
+  border-radius: 3px;
+  background-color: #09E370;
+  border-style: none;
+  padding-top: 2px; }
+.Onefeedslider1 p.card-text {
+  position: relative;
+  color: black;
+  top: 114px;
+  height: 100px;
+  width: 198px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  background-color: #f6f2f2;
+  text-align: left;
+  line-height: 1.0; }
+.Onefeedslider1 .Onefeedbtnslider4 {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  width: 60px;
+  border-radius: 3px;
+  background-color: #3F82F9;
+  border-style: none;
+  padding-top: 2px; }
+.Onefeedslider1 .OnefeedbtnsliderTVF {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  width: 60px;
+  border-radius: 3px;
+  background-color: #FEC00A;
+  border-style: none;
+  padding-top: 2px; }
+
+.Onefeedslidericon1 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  top: 189px; }
+.Onefeedslidericon1 .Onefeedslidericon1 figcaption {
+  bottom: 86px;
+  color: black;
+  left: -42px;
+  font-size: 13px;
+  position: relative; }
+.Onefeedslidericon1 .Onefeediconcontent {
+  font-size: 11px;
+  bottom: 280px;
+  left: 20px;
+  position: relative; }
+
+.circle {
+  background-color: orange;
+  border-radius: 50px; }
+
+.Onefeedfill {
+  position: relative;
+  color: black;
+  bottom: 28px;
+  /* top: -157px; */
+  height: 100px;
+  width: 198px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  background-color: #f6f2f2;
+  text-align: left;
+  line-height: 1.0; }
+  .Onefeedfill p {
+    font-size: 14px;
+    font-family: "Lato", sans-serif; }
+
+.Onefeedbtnslider1 {
+  position: relative;
+  /* top: 100px; */
+  bottom: 34px;
+  left: -61px;
+  height: 24px;
+  width: 60px;
+  color: white;
+  border-radius: 3px;
+  background-color: #09E370;
+  border-style: none;
+  padding-top: 2px; }
+
+.Onefeedbtnslider1:hover {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  width: 60px;
+  color: white;
+  border-radius: 3px;
+  background-color: #09E370;
+  border-style: none;
+  padding-top: 2px; }
+
+.Onefeedslidericon3 img {
+  height: 30px;
+  width: 30px;
+  left: -2px;
+  border-radius: 100px;
+  top: 43px; }
+
+.Onefeediconcontent2 {
+  font-size: 11px;
+  font-weight: normal !important;
+  position: relative; }
+  .Onefeediconcontent2 p {
+    font-size: 11px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal !important; }
+
+.Onefeedbtnslider4 {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  width: 60px;
+  border-radius: 3px;
+  background-color: #3F82F9;
+  border-style: none;
+  padding-top: 2px; }
+
+.OnefeedbtnsliderTVF {
+  position: relative;
+  top: 100px;
+  left: -46px;
+  height: 24px;
+  width: 60px;
+  border-radius: 3px;
+  background-color: #FEC00A;
+  border-style: none;
+  padding-top: 2px; }
+
+.OnefeedMarginsliderpara {
+  margin-left: 37px;
+  margin-left: 37px;
+  position: relative;
+  bottom: 28px; }
+  .OnefeedMarginsliderpara p {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold; }
+
+.Onefeedfill2 {
+  color: black;
+  /* top: -157px; */
+  height: 600px !important;
+  width: 198px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #f6f2f2 !important;
+  text-align: left; }
+
+.Onefeedfooter {
+  height: 62px;
+  background-size: cover;
+  background-color: #3C80B5; }
+  .Onefeedfooter ul li {
+    color: white !important;
+    font-size: 14px;
+    font-weight: normal !important;
+    float: left;
+    padding-left: 33px;
+    padding-top: 25px; }
+  .Onefeedfooter ul .Onefeedfooterright {
+    float: right;
+    padding-right: 42px; }
+
+.Onefeedgetintouchlabels {
+  margin-top: 30px;
+  padding-left: 62px; }
+  .Onefeedgetintouchlabels .label1 {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px; }
+  .Onefeedgetintouchlabels .label2 {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px; }
+  .Onefeedgetintouchlabels .label3, .Onefeedgetintouchlabels .label3:hover {
+    height: 50px;
+    width: 100%;
+    padding-top: 13px;
+    padding-left: 0px;
+    color: #d8d1d1;
+    font-size: 14px;
+    margin: auto; }
+  .Onefeedgetintouchlabels .dropdown-menu {
+    left: 0 !important; }
+  .Onefeedgetintouchlabels .OnefeedTextarea {
+    width: 100%;
+    height: 130px; }
+  .Onefeedgetintouchlabels .Onefeedsendbtn {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #EA5470;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px; }
+
+.OnefeedMobileIconborder img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: -5px; }
+
+.Onefeedmobilefeature, .Onefeedmobilecontent h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 28px; }
+
+.Onefeedfeaturecontent h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 0.1;
+  text-align: center;
+  margin-top: 20px; }
+
+.Onefeedmobilecontent p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  width: 350px; }
+
+.layer {
+  background-color: rgba(116, 99, 94, 0.84);
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.backgroundImage {
+  background-size: cover;
+  height: 680px; }
+
+.onefeednav1 {
+  padding-left: 27px; }
+
+.onefeedimg {
+  height: 600px;
+  background-size: cover; }
+
+.onefeedimg2 {
+  margin-top: 80px;
+  height: 483px;
+  width: 282px;
+  margin-left: 48px; }
+
+.OnefeedMobileIconborder {
+  height: 60px;
+  width: 60px;
+  /* margin-top: 10px; */
+  margin-left: -4px;
+  display: block;
+  margin-top: 12px;
+  border-radius: 100px;
+  background-color: #F9F9F9; }
+
+.Onefeedmobilecontent {
+  margin-left: 20px; }
+
+.Onefeedfeature {
+  margin-top: 50px;
+  height: 456px;
+  background-size: cover;
+  background-color: #E8EDF1; }
+
+.Onefeedfeatureheader h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 35px; }
+.Onefeedfeatureheader p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  margin: auto; }
+
+.Onefeedfeaturecontent {
+  margin-top: 37px; }
+  .Onefeedfeaturecontent p {
+    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+    width: none !important;
+    margin: none !important;
+    padding-top: 5px; }
+  .Onefeedfeaturecontent .Onefeedimagefeature {
+    height: 95px;
+    width: 95px;
+    border-radius: 100px;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 14px;
+    text-align: center; }
+
+.Onefeedcalculatemoney {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  /* position: absolute; */
+  position: relative;
+  left: 0;
+  top: 0; }
+
+.Onefeedcalculatemoneycontent h3 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 0.9;
+  color: white;
+  font-family: "Lato", sans-serif;
+  width: 61%;
+  font-size: 57px;
+  bottom: -6px;
+  opacity: 0.9; }
+
+.onefeedmoneycontent1 p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  opacity: 0.9;
+  opacity: 0.4;
+  text-align: center;
+  margin-top: 19px;
+  font-size: 48px; }
+.onefeedmoneycontent1 .Onefeedmoneycontent {
+  height: 49.4px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #FFFFFF; }
+.onefeedmoneycontent1 .col-lg-3 {
+  margin-left: 46px;
+  margin-top: 27px; }
+  .onefeedmoneycontent1 .col-lg-3 .form-group {
+    width: 175px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    height: 49.4px; }
+    .onefeedmoneycontent1 .col-lg-3 .form-group .form-control {
+      height: 50px !important; }
+.onefeedmoneycontent1 .Onefeeddropdown a {
+  padding-left: 0px !important;
+  padding-top: 14px !important; }
+
+.Onefeedcalculatemoneymargintop {
+  margin-top: 40px; }
+
+.Onefeedgetamountbtn {
+  margin-top: 24px;
+  /* a:hover{
+  	height: 50px;	width: 100%;	border-radius: 3px;	background-color: #EEA828;
+  	color:white;
+  	padding-top: 13px;
+  } */ }
+  .Onefeedgetamountbtn a {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #EEA828;
+    color: white;
+    padding-top: 13px; }
+    .Onefeedgetamountbtn a:hover {
+      height: 50px;
+      width: 100%;
+      border-radius: 3px;
+      background-color: #EEA828;
+      color: white;
+      padding-top: 13px; }
+
+.Onefeeddistributepartner {
+  height: 294px;
+  background-color: #EFF3F6;
+  background-size: cover; }
+  .Onefeeddistributepartner .Onefeedpartner h3 {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-weight: bold; }
+  .Onefeeddistributepartner .Onefeedpartner p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: auto; }
+
+.Onefeedpartnerimages li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.Onefeedpartnerimg1, .Onefeedpartnerimg2, .Onefeedpartnerimg3, .Onefeedpartnerimg4, .Onefeedpartnerimg5 {
+  height: 80px;
+  width: 183px;
+  background-color: #EFF3F6; }
+
+.Onefeedpartnerimg2 {
+  width: 194.12px !important; }
+
+.Onefeedpartnerimg3 {
+  width: 113px !important; }
+
+.Onefeedpartnerimg4 {
+  width: 289px !important; }
+
+.Onefeedpartnerimg5 {
+  width: 229px; }
+
+.onefeedpartnericons {
+  margin-top: 30px; }
+
+.Onefeedcontent .Onefeedheightslider {
+  height: 531px; }
+.Onefeedcontent .OnefeedDiscover {
+  text-transform: uppercase;
+  font-size: 24px;
+  height: 70px;
+  width: 333px;
+  border-radius: 3px;
+  background-color: #E6873B;
+  position: relative;
+  bottom: 153px;
+  display: block;
+  margin-left: auto;
+  color: white;
+  margin-right: auto; }
+  .Onefeedcontent .OnefeedDiscover i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 10px; }
+
+.Onefeedcontentslider {
+  margin-top: 20px; }
+  .Onefeedcontentslider h3 {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-weight: bold; }
+  .Onefeedcontentslider p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: auto; }
+
+.Onefeedgetintouch {
+  height: 600px;
+  background-size: cover;
+  opacity: 0.9;
+  background-color: #1774BC; }
+  .Onefeedgetintouch h3 {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white; }
+  .Onefeedgetintouch p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: white; }
+
+.Onefeedgetintouchicon {
+  margin-top: 10px; }
+  .Onefeedgetintouchicon .OnefeedGetintouchicons1 li {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: normal !important; }
+    .Onefeedgetintouchicon .OnefeedGetintouchicons1 li img {
+      height: 25px;
+      width: 25px;
+      margin-bottom: 5px;
+      margin-right: 2%; }
+  .Onefeedgetintouchicon img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+    margin-right: 2%; }
+  .Onefeedgetintouchicon a:hover {
+    color: white !important;
+    font-size: 18px !important;
+    box-shadow: none;
+    text-decoration: none;
+    font-weight: normal !important; }
+  .Onefeedgetintouchicon p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: white;
+    text-align: left !important;
+    font-weight: normal !important;
+    margin: 0;
+    width: 320px;
+    opacity: 0.7; }
+
+::placeholder {
+  height: 17px;
+  width: 151px;
+  opacity: 0.5;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 17px; }
+
+.onefeedimage {
+  height: 13.83px;
+  width: 14px;
+  opacity: 0.7;
+  float: right;
+  margin-top: 3px; }
+
+.OnefeedDiscover {
+  text-transform: uppercase;
+  font-size: 19px;
+  height: 55px;
+  width: 237px;
+  padding-top: 1px;
+  margin-left: auto;
+  border-radius: 3px;
+  background-color: #E6873B;
+  color: white;
+  /* margin-right: auto; */
+  margin-right: auto;
+  display: block; }
+  .OnefeedDiscover i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 10px; }
+
+.OnefeedDiscover:hover {
+  text-transform: uppercase;
+  font-size: 19px;
+  height: 55px;
+  width: 237px;
+  padding-top: 1px;
+  margin-left: auto;
+  border-radius: 3px;
+  background-color: #E6873B;
+  color: white;
+  /* margin-right: auto; */
+  margin-right: auto;
+  display: block; }
+  .OnefeedDiscover:hover i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 10px; }
+
+.Onefeedcontent {
+  height: 528px; }
+
+.Onefeedheight {
+  height: 480px; }
+
+/*# sourceMappingURL=style3.css.map */

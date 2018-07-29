@@ -1,0 +1,98 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+				color:$active;
+				color:$hover;
+				color:$visit;
+			&:active{
+			&:hover{
+			&:visited{
+			color:$hyperlink;
+			}
+			}
+			}
+		a{
+		border-bottom: $borderheight solid transparent;
+		border-bottom: $borderheight solid transparent;
+		border-bottom:$bordersize solid $bordercolor;
+		border-left:$bordersize solid $bordercolor;
+		border-left:$borderwidth solid transparent;
+		border-left:$borderwidth solid transparent;
+		border-right:$borderheight solid transparent;
+		border-right:$borderheight solid transparent;
+		border-right:$bordersize solid $bordercolor;
+		border-top: $borderwidth solid transparent;
+		border-top: $borderwidth solid transparent;
+		border-top:$bordersize solid $bordercolor;
+		display:block;
+		margin-left: 200px;
+		margin-left: 200px;
+		margin-left: 200px;
+		margin-left: 200px;
+		}
+		}
+	$color:red;
+	@if $triangle_name == triangledown {
+	@if $triangle_name == triangleleft {
+	@if $triangle_name == triangleright {
+	@if $triangle_name == triangleup {
+	@include fontoperation(160em);
+	@include linkoperate(blue,red,yellow);
+	@include triangleoperation(triangledown,22px,22px);
+	border-radius: radius(50%);
+	border:2px solid green;
+	font-size: ($value/16);
+	img{
+	}
+	}
+	}
+	}
+ 
+ 
+    @return ($radius );
+ @function radius($radius) {
+.container{
+.fontoperation{
+.linkoperation{
+.triangleoperation{
+@mixin argumentfunction($color,$pad){
+@mixin fontoperation($value){
+@mixin linkoperate($hyperlink,$visit,$active,$hover:black,){
+@mixin triangleoperation($triangle_name,$borderwidth,$borderheight,$bordercolor:red,$bordersize:20px){
+}
+}
+}
+}
+}
+}
+}
+}
+}

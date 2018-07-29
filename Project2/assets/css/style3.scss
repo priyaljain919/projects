@@ -1,0 +1,132 @@
+@mixin linkoperate($hyperlink,$visit,$active,$hover:brown){
+	a{
+		color:$hyperlink;
+		&:visited{
+			color:$visit;
+		}
+		&:hover{
+			color:$hover;
+		}
+		&:active{
+			color:$active;
+		}
+	}
+}
+.linkoperation{
+	@include linkoperate(red,blue,green);
+}
+
+@mixin argumentfunction($color,$paddingarea...){
+		color:$color;
+		padding:$paddingarea;
+
+}
+.argumentmixin{
+	.one{
+		@include argumentfunction(orange,10px);
+	}
+	.two{
+		@include argumentfunction(red,10px 20px);
+	}
+	.three{
+		@include argumentfunction(lightblue,10px 20px 30px);
+	}
+	.four{
+		@include argumentfunction(green,10px 20px 30px 40px);
+	}
+}
+
+$box-style1: 5px, solid, blue;
+$box-style2 :(bStyle: dotted, bColor: blue, bWidth: medium);
+@mixin box($bWidth, $bStyle, $bColor) {
+  border-width: $bWidth;
+  border-style: $bStyle;
+  border-color: $bColor;
+}
+
+.first {
+  @include box($box-style1...);
+  border-width: 5px;
+        border-style: solid;
+        border-color: red;
+}
+
+.second {
+  @include box($box-style2...);
+  border-width: medium;
+        border-style: dotted;
+        border-color: blue;
+}
+
+@mixin cont{
+	background-color: lightblue;
+	margin-top: 20px;
+	height:100px;
+	@content;
+}
+
+.contentoperation{
+	@include cont{
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+
+$first-name: 'hello';
+$last-name:"sass";
+@mixin stringconcat{
+
+	&::after{
+		content:"welcome" + $first-name + "and" + $last-name ;
+	}
+	
+}
+
+.stringoperation{
+
+	h2{
+		@include stringconcat;
+	}
+	
+}
+
+@mixin triangledown{
+	 &::before{
+	 	width:0;
+	 	height:0;
+	 }
+	 &::after{
+	 	content:'';
+	 	position:relative;
+	 	top:10px;
+	 	border-top:20px solid green;
+	 	border-left:20px solid transparent;
+	 	border-right:20px solid transparent;
+	 }
+}
+
+.triangleoperation{
+	@include triangledown;
+}
+
+$headers: h1, h2, h3, h4, h5, h6;
+$fontsize: 20px, 12px, 40px, 35px, 26px, 45px;
+$len: length($headers);
+
+@for $i from $len through 1 {
+	h#{$i} {
+		font-size:$fontsize;
+	}
+}
+$headers1:p;
+$fontsize: 20px, 12px, 40px, 35px, 26px, 45px;
+@each $heading in $headers1{
+	#{$heading}{
+		font-size: 60px;
+		
+	}
+}
+
+@while $index < 6 {
+	
+}

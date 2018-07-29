@@ -1,0 +1,299 @@
+.slider{
+	    padding-top: 20px;
+    margin: auto;
+    clear:both;
+}
+.slick-slide{
+	margin: 0px 18px;
+}
+.slick-slide img{
+	    width: 198px;
+    height: 150px;
+	
+}
+.slider , .Item{
+	    width: 85%;
+    height: 79%;
+    text-align: center;
+   
+    color: #fff;
+}
+.slick-prev::before,
+.slick-next::before{
+	color: white !important;
+	background-color: blue !important;
+	content: '' !important;
+	
+}
+ .slick-next{
+	color:white;
+	background-color: orange !important;
+	border-radius: 50px;
+	
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 63% !important;
+    min-height: 1px;
+
+    }
+
+
+    .fa-long-arrow-left{
+   	color: black;
+    float: left;
+    font-size: 40px;
+    position: absolute;
+    left: -80px;
+    /* margin-left: 500px; */
+    top: 111px;
+    }
+.slickarrowright{
+	color: white;
+    position: right;
+    position: absolute;
+    float: right;
+    /* margin-left: 500px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 9px;
+    font-size: 40px;
+   
+ 
+    top: 90px;
+    right: -129px;
+}
+   
+    .slickarrowright:hover{
+   	color: white;
+    position: right;
+    position: absolute;
+    float: right;
+    /* margin-left: 500px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 9px;
+    font-size: 40px;
+    border-radius:50px;
+   background-color: #E6873B;
+    top: 90px;
+    right: -129px;
+    }
+
+.Onefeedslider1{
+
+	
+	.Onefeedbtnslider1{
+		position: relative;
+		    top: 100px;
+    		left: -46px;
+    		height: 24px;
+            color:white !important;	
+    		width: 60px;	
+    		border-radius: 3px;	
+    		background-color: #09E370;
+    		border-style: none;
+    		padding-top: 2px;
+	}
+	.Onefeedbtnslider1:hover{
+		position: relative;
+		    top: 100px;
+    		left: -46px;
+    		height: 24px;	
+    		width: 60px;
+            color:white;	
+    		border-radius: 3px;	
+    		background-color: #09E370;
+    		border-style: none;
+    		padding-top: 2px;
+	}
+	p.card-text{
+		position: relative;
+    color: black;
+    top: 114px;
+    height: 100px;
+    width: 198px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #f6f2f2;
+    text-align: left;
+    line-height: 1.0;
+	}
+	.Onefeedbtnslider4{
+
+		position: relative;
+		    top: 100px;
+    		left: -46px;
+    		height: 24px;	
+    		width: 60px;	
+    		border-radius: 3px;	
+    		background-color: #3F82F9;
+    		border-style: none;
+    		padding-top: 2px;
+		}
+		.OnefeedbtnsliderTVF{
+
+		position: relative;
+		    top: 100px;
+    		left: -46px;
+    		height: 24px;	
+    		width: 60px;	
+    		border-radius: 3px;	
+    		background-color: #FEC00A;;
+    		border-style: none;
+    		padding-top: 2px;
+		}
+
+
+}
+
+.Onefeedslidericon1{
+	img{
+		height: 30px;	width: 30px;	border-radius: 100px;
+		top:189px;
+	}
+	.Onefeedslidericon1 figcaption{
+		    bottom: 86px;
+    color: black;
+    left: -42px;
+    font-size: 13px;
+    position: relative;
+	}
+	.Onefeediconcontent{
+		    font-size: 11px;
+    bottom: 280px;
+    left: 20px;
+    position: relative;
+	}
+}
+
+.circle{
+	background-color: orange;
+	border-radius: 50px;
+}
+
+.Onefeedfill{
+        position: relative;
+    color: black;
+    bottom: 28px;
+    /* top: -157px; */
+    height: 100px;
+    width: 198px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #f6f2f2;
+    text-align: left;
+    line-height: 1.0;
+
+    p{
+        font-size: 14px;
+        font-family: $onefeedfont;
+    }
+}
+.Onefeedbtnslider1{
+        position: relative;
+    /* top: 100px; */
+    bottom: 34px;
+    left: -61px;
+    height: 24px;
+    width: 60px;
+    color:white;
+    border-radius: 3px;
+    background-color: #09E370;
+    border-style: none;
+    padding-top: 2px;
+    }
+    .Onefeedbtnslider1:hover{
+        position: relative;
+            top: 100px;
+            left: -46px;
+            height: 24px;   
+            width: 60px;   
+            color:white; 
+            border-radius: 3px; 
+            background-color: #09E370;
+            border-style: none;
+            padding-top: 2px;
+    }
+
+    .Onefeedslidericon3 img {
+   height: 30px;
+    width: 30px;
+    left: -2px;
+    border-radius: 100px;
+    top: 43px;
+}
+.Onefeediconcontent2 {
+  font-size: 11px;
+  font-weight: normal !important;
+  position: relative; 
+  p{
+        font-size: 11px;
+        font-family: $onefeedfont;
+        font-weight: normal !important;
+  }
+
+
+}
+
+.Onefeedbtnslider4{
+
+        position: relative;
+            top: 100px;
+            left: -46px;
+            height: 24px;   
+            width: 60px;    
+            border-radius: 3px; 
+            background-color: #3F82F9;
+            border-style: none;
+            padding-top: 2px;
+        }
+        .OnefeedbtnsliderTVF{
+
+        position: relative;
+            top: 100px;
+            left: -46px;
+            height: 24px;   
+            width: 60px;    
+            border-radius: 3px; 
+            background-color: #FEC00A;;
+            border-style: none;
+            padding-top: 2px;
+        }
+
+.OnefeedMarginsliderpara{
+    margin-left: 37px;
+    margin-left: 37px;
+    position: relative;
+    bottom: 28px;
+   
+
+    p{
+        font-size: 12px;
+        font-family: $onefeedfont;
+        font-weight: bold;
+    }
+}
+
+.Onefeedfill2{
+       
+    color: black;
+   
+    /* top: -157px; */
+    height: 600px !important;
+    width: 198px;
+    font-size: 13px;
+  
+    font-weight: bold;
+    background-color: #f6f2f2 !important;
+    text-align: left;
+    
+
+}

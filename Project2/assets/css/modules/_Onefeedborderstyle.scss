@@ -1,0 +1,58 @@
+.onefeed1{
+
+	h1{
+		@include Onefeedheadercontent;
+		margin-top: 62px;
+		font-size: 72px;
+		font-weight: 900px;
+		text-align: center !important;
+		color:black !important;
+		font-weight: bold;
+		
+
+	}
+	h1.Onefeedbordersection{
+			border-bottom: 5px solid #ff000000;
+    display: inline-block;
+    position: relative;
+		}
+		.Onefeedbordersection::after{
+		    content: '';
+    display: block;
+    position: absolute;
+    width: 47%;
+    right: 23px;
+    /* left: -72px; */
+    bottom: -9px;
+    top: 29px;
+    /* padding-left: 10px; */
+    right: 168px;
+    /* background: white; */
+    border-bottom: 5px solid red;
+			}
+			.Onefeedbordersection::before{
+			    content: '';
+   			 display: block;
+    		position: absolute;
+   			 width: 53%;
+    		bottom: -5px;
+    		right: 0px;
+   			border-bottom: 5px solid #fff;
+			}
+
+		p{
+			font-size: 18px;
+			font-family: $onefeedfont;
+			font-weight: normal;
+			margin-top: 10px;
+			width: 585px;
+		}
+
+}
+
+.borderdashed{
+	    border-bottom: 1px dashed white;
+    padding-top: 18px;
+    opacity: 0.3 !important;
+    width: 40% !important;
+}

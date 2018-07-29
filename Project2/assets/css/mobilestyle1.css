@@ -1,0 +1,1150 @@
+@media screen and (max-width:1366px ) and (min-width:1024px ){
+
+	.Onefeedmoneycontent {
+    height: 49.4px;
+    width: 161px !important;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+.Onefeedslidericon2 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 3px;
+}
+.Onefeedslidericon3 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 7px;
+}
+.Onefeedslidericon5 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 7px;
+}
+.slick-slide img {
+    width: 174px;
+    height: 150px;
+    position: absolute;
+}
+.Onefeedslider1 p.card-text {
+    position: relative;
+    color: black;
+    top: 114px;
+    height: 100px;
+    width: 176px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #f6f2f2;
+    text-align: left;
+    line-height: 1.0;
+}
+.Onefeedslidericon1 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+}
+.Onefeedgetintouchlabels {
+    margin-top: 30px;
+    /* padding-left: 62px; */
+    padding-left: 0 !important;
+}
+.Onefeedgetintouchlabels .label3, .Onefeedgetintouchlabels .label3:hover {
+    height: 50px;
+    width: 197px;
+    padding-top: 13px;
+    padding-left: 0px;
+    color: #d8d1d1;
+    font-size: 14px;
+    margin-left: -24px;
+    /* margin: 0 !important; */
+    /* margin: auto; */
+}
+.Onefeedgetintouchlabels .OnefeedTextarea {
+    width: 94%;
+    height: 130px;
+}
+
+.Onefeedslidericon1 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -18px;
+    font-size: 13px;
+    position: relative;
+}
+
+.Onefeedslidericon2 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -10px;
+    font-size: 13px;
+    position: relative;
+}
+
+.Onefeedslidericon3 figcaption {
+    bottom: 86px;
+    color: black;
+    left: 9px;
+    font-size: 13px;
+    position: relative;
+}
+.Onefeedslidericon5 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -25px;
+    font-size: 13px;
+    position: relative;
+}
+.Onefeedpartnerimg1, .Onefeedpartnerimg2, .Onefeedpartnerimg3, .Onefeedpartnerimg4, .Onefeedpartnerimg5 {
+    height: 80px;
+    width: 155px !important;
+    background-color: #EFF3F6;
+}
+.Onefeedpartnerimg3 {
+    margin-left: 41px;
+    width: 89px !important;
+}
+.Onefeedpartnerimg4 {
+    width: 260px !important;
+}
+.Onefeedpartnerimg5 {
+    width: 183px;
+    margin-left: 129px;
+}
+
+.Onefeedmargincenter{
+    display: inline;
+    text-align: center !important;
+    margin-left: 0px !important;
+}
+.onefeed1 .Onefeedbordersection::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 53%;
+    bottom: -4px;
+    right: 0px;
+    border-bottom: 5px solid #fff;
+}
+.Onefeedslider1 .Onefeedbtnslider1 {
+    position: relative;
+    top: 100px;
+    left: -39px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #09E370;
+    border-style: none;
+    padding-top: 2px;
+}
+
+.Onefeedslider1 .Onefeedbtnslider4 {
+    position: relative;
+    top: 100px;
+    left: -35px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #3F82F9;
+    border-style: none;
+    padding-top: 2px;
+}
+
+.Onefeedslider1 .OnefeedbtnsliderTVF {
+    position: relative;
+    top: 100px;
+    left: -39px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #FEC00A;
+    border-style: none;
+    padding-top: 2px;
+}
+
+}
+
+@media screen and (max-width:1024px ) and (min-width:768px){
+
+
+    .container{
+        width: 100%;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .Onefeedmoneycontent {
+    height: 49.4px;
+    width: 146px !important;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+.dropdown1 {
+    height: 49.4px;
+    font-size: 12px;
+    width: 132px;
+    border-radius: 3px;
+    background-color: #FFFFFF !important;
+    color: #ccc;
+    margin-left: 19px;
+}
+
+.Onefeedcalculatemoneycontent h3 {
+    color: white;
+    font-family: lato;
+    width: 396px;
+    margin-left: 28px;
+    font-size: 61px;
+    bottom: -6px;
+    line-height: 1.2;
+    padding-bottom: 65px;
+}
+.Onefeedgetamountbtn a {
+    height: 50px;
+    width: 287px;
+    border-radius: 3px;
+    background-color: #EEA828;
+    margin-left: 42px;
+    color: white;
+    padding-top: 13px;
+}
+.onefeedmoneycontent1 p {
+    color: white;
+    font-family: lato;
+    width: 303px;
+    opacity: 0.4;
+    margin-top: 19px;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-left: 80px;
+}
+.main h1 {
+    color: white;
+    font-family: lato;
+    font-size: 60px;
+    margin-left: 28px;
+    font-weight: 900px;
+    width: 615px;
+    font-weight: bold;
+}
+
+.backgroundImage {
+    background-size: cover;
+    height: 648px;
+}
+
+.onefeedimg2 {
+    margin-top: 80px;
+    height: 536px;
+    width: 247px;
+    margin-left: 14px;
+}
+
+.onefeed1 p {
+    font-size: 18px;
+    font-family: lato;
+    font-weight: normal;
+    margin-top: 10px;
+    width: 324px;
+    /* margin: auto; */
+    /* width: 585px; */
+}
+
+.Onefeedfeaturecontent p {
+    font-size: 19px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+    width: 169px !important;
+    width: none !important;
+    margin: none !important;
+    padding-top: 5px;
+}
+
+.Onefeedfeature {
+    margin-top: 50px;
+    height: 506px;
+    background-size: cover;
+    background-color: #E8EDF1;
+}
+
+.Onefeedslidericon2 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 3px;
+}
+.Onefeedslidericon3 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 7px;
+}
+.Onefeedslidericon5 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 7px;
+}
+.slick-slide img {
+        width: 186px;
+    height: 150px;
+    position: absolute;
+}
+.Onefeedslider1 p.card-text {
+    position: relative;
+    color: black;
+    top: 114px;
+    height: 100px;
+    width: 187px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #f6f2f2;
+    text-align: left;
+    line-height: 1.0;
+}
+
+.slider, .Item {
+    width: 85%;
+    height: 80%;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+}
+
+.fa-long-arrow-left {
+    color: black;
+    float: left;
+    font-size: 32px;
+    position: absolute;
+    left: -49px;
+    /* margin-left: 500px; */
+    top: 111px;
+}
+
+.Onefeedgetintouchlabels .label1 {
+    height: 50px;
+    width: 321px;
+    border-radius: 3px;
+}
+
+.Onefeedgetintouchlabels .label2 {
+    height: 50px;
+    width: 147px;
+    border-radius: 3px;
+}
+
+.Onefeedslidericon1 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+}
+.Onefeedgetintouchlabels {
+    margin-top: 30px;
+    /* padding-left: 62px; */
+    padding-left: 0 !important;
+}
+.Onefeedgetintouchlabels .label3, .Onefeedgetintouchlabels .label3:hover {
+   height: 50px;
+    width: 162px;
+    padding-top: 13px;
+    padding-left: 0px;
+    color: #d8d1d1;
+    font-size: 14px;
+    margin-left: -24px;
+    /* margin: 0 !important; */
+    /* margin: auto; */
+}
+
+.Onefeedgetintouchlabels .Onefeedsendbtn {
+    height: 50px;
+    width: 317px;
+    border-radius: 3px;
+    background-color: #EA5470;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.Onefeedgetintouchlabels .OnefeedTextarea {
+    width: 94%;
+    height: 130px;
+}
+
+.Onefeedslidericon1 figcaption {
+       bottom: 86px;
+    color: black;
+    left: -18px;
+    font-size: 15px;
+    position: relative;
+
+
+}
+
+.Onefeedslidericon1 .Onefeediconcontent {
+    font-size: 12px;
+    bottom: 280px;
+    left: 20px;
+    position: relative;
+}
+.Onefeedslidericon2 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -10px;
+    font-size: 15px;
+    position: relative;
+}
+
+.Onefeedslidericon3 figcaption {
+    bottom: 86px;
+    color: black;
+    left: 9px;
+    font-size: 12px;
+    position: relative;
+}
+.Onefeedslidericon5 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -25px;
+    font-size: 15px;
+    position: relative;
+}
+.Onefeedpartnerimg1, .Onefeedpartnerimg2, .Onefeedpartnerimg3, .Onefeedpartnerimg4, .Onefeedpartnerimg5 {
+    height: 80px;
+    width: 129px !important;
+    background-color: #EFF3F6;
+}
+.Onefeedpartnerimg3 {
+    margin-left: 41px;
+    width: 67px !important;
+}
+.Onefeedpartnerimg4 {
+    width: 212px !important;
+}
+.Onefeedpartnerimg5 {
+    width: 116px !important;
+    margin-left: 103px;
+}
+.onefeed1 .Onefeedbordersection::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 53%;
+    bottom: -4px;
+    right: 0px;
+    border-bottom: 5px solid #fff;
+}
+.Onefeedslider1 .Onefeedbtnslider1 {
+    position: relative;
+    top: 100px;
+    left: -39px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #09E370;
+    border-style: none;
+    padding-top: 2px;
+}
+
+.Onefeedslider1 .Onefeedbtnslider4 {
+    position: relative;
+    top: 100px;
+    left: -35px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #3F82F9;
+    border-style: none;
+    padding-top: 2px;
+}
+
+.Onefeedslider1 .OnefeedbtnsliderTVF {
+    position: relative;
+    top: 100px;
+    left: -39px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #FEC00A;
+    border-style: none;
+    padding-top: 2px;
+}
+
+}
+
+@media screen and (max-width:812px ) and (min-width:375px){
+
+
+    .container{
+        width: 100%;
+    }
+    .container-fluid{
+        width: 100%;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .Onefeedmoneycontent {
+    height: 49.4px;
+    width: 150px !important;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+.dropdown1 {
+      height: 49.4px;
+    font-size: 12px;
+    width: 154px;
+    border-radius: 3px;
+    background-color: #FFFFFF !important;
+    color: #ccc;
+    margin: auto;
+    /* margin-left: -14px; */
+}
+
+.Onefeedcalculatemoneycontent h3 {
+     color: white;
+    font-family: lato;
+    text-align: center;
+    padding-right: 43px;
+    font-size: 34px;
+   
+}
+.Onefeedgetamountbtn {
+    /* left: -133px; */
+    margin-top: 24px;
+    left: 0 !important;
+}
+
+.onefeedmoneycontent1 .Onefeedmoneycontent {
+       height: 49.4px;
+    margin: auto !important;
+    margin-left: 35px !important;
+    width: 155px !important;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+.Onefeedcontainermoney {
+    position: relative;
+    bottom: 195px;
+    height: 0;
+}
+.Onefeedgetamountbtn a {
+    height: 50px; 
+    width: 347px;
+    border-radius: 3px;
+    background-color: #EEA828;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+.Onefeedgetamountbtn a:hover {
+    height: 50px; 
+    width: 320px;
+    border-radius: 3px;
+    background-color: #EEA828;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 16px;
+    color: white !important;
+}
+.onefeedmoneycontent1 .col-lg-3 {
+        margin-left: -1px;
+    margin-top: 27px;
+}
+
+.onefeedmoneycontent1{
+            bottom: 58px;
+            left: -47px;
+}
+
+.Onefeeddistributepartner .Onefeedpartner p {
+    font-size: 18px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+    width: 329px;
+    margin: auto;
+}
+
+.Onefeedcalculatemoney {
+    filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 392px;
+    left: 0;
+    top: 0;
+}
+.onefeedmoneycontent1 p {
+    color: white;
+    font-family: lato;
+    width: 303px;
+    opacity: 0.4;
+    /* text-align: center; */
+    margin-top: 19px;
+    font-size: 26px;
+    line-height: 1.2;
+    margin-left: 142px;
+}
+.main h1 {
+        color: white;
+    font-family: lato;
+    font-size: 28px;
+    margin-left: 16px;
+    font-weight: 900px;
+    width: 281px;
+    font-weight: bold;
+}
+.main p {
+    color: white;
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    font-weight: normal !important;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.main img {
+    height: 18px;
+    width: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.backgroundImage {
+        background-size: cover !important;
+    height: 358px;
+}
+ul li a {
+    background: none;
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 28px;
+    font-weight: bold;
+}
+.main h2 {
+    background: none;
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    font-family: lato;
+    font-size: 18px;
+    margin-left: 18px;
+    font-weight: 600;
+    margin-top: 31px;
+    font-weight: normal !important;
+}
+
+.onefeedimg2 {
+    display: none;
+}
+
+.onefeed1 p {
+ font-size: 16px !important;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    /* width: 305px; */
+    margin: auto;
+    /* margin: auto; */
+    /* width: 585px; */
+}
+.Onefeedmobilecontent {
+    margin-left: 0px;
+}
+.Onefeedpara{
+     font-size: 18px !important;
+    font-family: lato;
+    text-align: center !important;
+    font-weight: normal;
+    margin-top: 10px;
+    width: 308px !important;
+}
+.Onefeedmobilecontent h3 {
+        font-family: lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0.1;
+    width: 100px;
+    margin-top: 28px;
+}
+
+.OnefeedMobileIconborder {
+    height: 50px;
+    width: 50px;
+    /* margin-top: 10px; */
+    margin-left: -11px;
+    display: block;
+    margin-top: 12px;
+    border-radius: 100px;
+    background-color: #F9F9F9;
+}
+
+.OnefeedMobileIconborder img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.Onefeedfeaturecontent p {
+    font-size: 17px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+   
+    width: none !important;
+    margin: none !important;
+    padding-top: 5px;
+}
+
+.Onefeedfeature {
+           margin-top: 50px;
+    height: 1173px;
+    background-size: cover;
+    background-color: #E8EDF1;
+}
+.onefeedfeaturemargin{
+    margin-top: 25px;
+}
+
+.Onefeedslidericon2 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 3px;
+}
+.Onefeedslidericon3 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 7px;
+}
+..onefeed1{
+    margin: auto;
+    text-align: center;
+}
+.Onefeedslidericon5 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 189px;
+    margin-left: 7px;
+}
+.slick-slide img {
+        width: 186px;
+    height: 150px;
+    position: absolute;
+}
+.Onefeedslider1 p.card-text {
+    position: relative;
+    color: black;
+    top: 114px;
+    height: 100px;
+    width: 187px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #f6f2f2;
+    text-align: left;
+    line-height: 1.0;
+}
+
+.slider, .Item {
+        width: 89%;
+    height: 78%;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+}
+
+.fa-long-arrow-left {
+   display: none;
+}
+
+.Onefeedgetintouchlabels .label1 {
+        height: 50px;
+    width: 100%;
+    /* width: 276px; */
+    border-radius: 3px;
+}
+
+.Onefeedgetintouchlabels .label2 {
+        height: 50px;
+    width: 152px;
+    border-radius: 3px;
+
+}
+
+.Onefeedslidericon1 img {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100px;
+    top: 53px;
+    left: 1px;
+}
+
+.OnefeedMarginsliderpara {
+    margin-left: 37px;
+}
+
+.Onefeedfill {
+    position: relative;
+    color: black;
+    top: 114px;
+    height: 100px;
+    width: 188px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #f6f2f2;
+    text-align: left;
+    line-height: 1.0;
+}
+.Onefeedgetintouchlabels {
+        margin-top: 30px;
+    /* padding-left: 62px; */
+    margin-left: 17px;
+    padding-left: 0px !important;
+}
+.Onefeedgetintouchlabels .label3, .Onefeedgetintouchlabels .label3:hover {
+      height: 50px;
+    /* width: 164px; */
+    /* padding-top: 13px; */
+    /* padding-left: 0px; */
+    color: #d8d1d1;
+    font-size: 14px;
+    margin-left: -14px;
+    /* margin: 0 !important; */
+    /* margin: auto; */
+}
+
+.Onefeedgetintouchlabels .Onefeedsendbtn {
+    height: 50px;
+    width: 317px;
+    border-radius: 3px;
+    background-color: #EA5470;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.Onefeedgetintouchlabels .OnefeedTextarea {
+      width: 97%;
+    height: 130px;
+}
+
+.Onefeedslidericon1 figcaption {
+       bottom: 86px;
+    color: black;
+    left: -18px;
+    font-size: 15px;
+    position: relative;
+
+
+}
+
+.Onefeedslidericon1 .Onefeediconcontent {
+    font-size: 12px;
+    bottom: 280px;
+    left: 20px;
+    position: relative;
+}
+.Onefeedslidericon2 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -10px;
+    font-size: 15px;
+    position: relative;
+}
+
+.Onefeedslidericon3 figcaption {
+        bottom: 86px;
+    color: black;
+    left: -25px;
+    font-size: 12px;
+    position: relative;
+}
+.Onefeedslidericon5 figcaption {
+    bottom: 86px;
+    color: black;
+    left: -25px;
+    font-size: 15px;
+    position: relative;
+}
+.Onefeedpartnerimg1, .Onefeedpartnerimg2, .Onefeedpartnerimg3, .Onefeedpartnerimg4, .Onefeedpartnerimg5 {
+        height: 50px;
+    width: 131px !important;
+    background-color: #EFF3F6;
+    margin-left: 10px;
+}
+.Onefeedpartnerimg3 {
+        margin-left: 13px;
+    margin-top: 15px;
+    width: 116px !important;
+}
+.Onefeedpartnerimg4 {
+        width: 137px !important;
+    margin-top: 15px;
+}
+.Onefeedpartnerimg5 {
+        width: 116px !important;
+    margin-left: 88px;
+    margin-top: 15px;
+}
+.onefeed1 .Onefeedbordersection::after {
+      content: '';
+    display: block;
+    position: absolute;
+    width: 47%;
+    right: 23px;
+    /* left: -72px; */
+    bottom: -9px;
+    top: 33px;
+    /* padding-left: 10px; */
+    right: 39px;
+    background: white;
+    border-bottom: 5px solid red;
+}
+
+.Onefeeddistributepartner {
+    height: 386px;
+    background-color: #EFF3F6;
+    background-size: cover;
+}
+
+.onefeed1 h1.Onefeedbordersection {
+    border-bottom: 5px solid #ff000000;
+    display: inline-block;
+    position: relative;
+}
+
+.onefeed1 h1 {
+    color: white;
+    font-family: lato;
+    margin-top: 26px;
+    font-size: 28px;
+      
+    font-weight: 900px;
+    color: black !important;
+    font-weight: bold;
+}
+.Onefeedslider1 .Onefeedbtnslider1 {
+    position: relative;
+    top: 100px;
+    left: -39px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #09E370;
+    border-style: none;
+    padding-top: 2px;
+}
+
+.Onefeedslider1 .Onefeedbtnslider4 {
+    position: relative;
+    top: 100px;
+    left: -35px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #3F82F9;
+    border-style: none;
+    padding-top: 2px;
+}
+
+.Onefeedslider1 .OnefeedbtnsliderTVF {
+    position: relative;
+    top: 100px;
+    left: -39px;
+    height: 24px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: #FEC00A;
+    border-style: none;
+    padding-top: 2px;
+}
+.Onefeedfeatureheaader p {
+    font-size: 18px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+    width: 330px;
+    margin: auto;
+}
+
+.Onefeeddistributepartner .Onefeedpartner h3 {
+    font-size: 24px;
+    font-family: lato;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Onefeeddistributepartner .Onefeedpartner p {
+    font-size: 17px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+    width: 325px;
+    margin: auto;
+}
+
+.Onefeedgetintouch p {
+        font-size: 16px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+    width: 304px;
+    opacity: 0.7;
+    /* margin: auto; */
+    color: white;
+}
+
+.Onefeedgetintouch {
+     height: 970px;
+    background-size: cover;
+    opacity: 0.9;
+    background-color: #1774BC;
+}
+.Onefeedfooter {
+    height: 90px;
+    background-size: cover;
+    background-color: #3C80B5;
+}
+.list-unstyled1 {
+    padding-left: 33px !important;
+    list-style: none;
+}
+.Onefeedfooter ul li {
+    color: white !important;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: normal !important;
+    float: left;
+    margin-left: 20px;
+    padding-left: 16px;
+    padding-top: 25px;
+}
+.Onefeedfooter ul .Onefeedfooterright {
+    /* float: right; */
+    /* text-align: center; */
+    margin-left: 87px;
+    float: none !important;
+    padding-top: 11px !important;
+    opacity: 0.51;
+    /* padding-right: 55px; */
+}
+.Onefeedcontentslider p {
+        font-size: 16px;
+    font-family: lato;
+    font-weight: normal;
+    text-align: center;
+    width: 319px;
+    margin: auto;
+}
+.Onefeedcontent .OnefeedDiscover i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 4px;
+}
+.Onefeedcontent .OnefeedDiscover {
+    text-transform: uppercase;
+    font-size: 19px;
+    height: 55px;
+    width: 250px;
+    border-radius: 3px;
+    background-color: #E6873B;
+    display: block;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+}
+.Onefeedmobilecontent p {
+        font-family: 'lato', sans-serif;
+    font-size: 14px !important;
+    font-weight: normal;
+    width: 277px;
+}
+.Onefeedmargin{
+    margin-left: -9px;
+}
+.borderdashed {
+    border-bottom: 2px dashed white;
+    padding-top: 18px;
+    opacity: 0.3 !important;
+    width: 64% !important;
+}
+
+    .Onefeedslidericon1 figcaption{
+            bottom: 86px;
+    color: black;
+    left: -42px;
+    font-size: 13px;
+    position: relative;
+    }
+    .Onefeediconcontent{
+            font-size: 11px;
+    bottom: 280px;
+    left: 20px;
+    position: relative;
+    }
+
+    .OnefeedDiscover {
+    text-transform: uppercase;
+    font-size: 22px;
+    height: 50px;
+    width: 250px;
+    border-radius: 3px;
+    background-color: #E6873B;
+    position: relative;
+    bottom: 153px;
+    display: block;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+}
+
+.OnefeedDiscover i {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    padding-top: 6px;
+}
+
+.Onefeedgetintouchmargin{
+    margin-top: -80px !important;
+}
+}
