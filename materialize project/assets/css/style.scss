@@ -1,0 +1,78 @@
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/CoverImageSection';
+@import 'modules/HorizontalScroll';
+@import 'modules/BorderHeading';
+@import 'modules/VedioOverlay';
+@import 'modules/DropdownMenu';
+$color:black;
+$fontsize:13px;
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.wittyfeedscrollpara{
+	font-size: 15px !important;
+	font-weight: bold !important;
+}
+
+
+
+nav ul a:hover {
+    background:none !important;
+}
+
+
+.wittyfeedimgblock{
+	    position: relative;
+    	padding-top: 52.50% !important;
+    	background-size: cover;
+   		display: block;
+   		background-position: center;
+   		background-color: #f0f0f0;
+
+}
+
+	.wittyfeedeatrepeatimg{
+		@extend .wittyfeedimgblock;
+        padding-top: 32.5% !important;
+ 		width:50% !important;
+	}
+.wittyfeedeatrepeat{
+		margin-top: 10px;
+		div{
+			&:nth-child(2){
+				    width: 50%;
+    				float: left;
+   					 box-sizing: border-box;
+    				padding-left: 8px;
+    				padding-right: 5px;
+			}
+			h1{
+				    margin: 0px 0px 0.0px 0 !important;
+				    font-size: 14px !important;
+				    line-height: 1.4;
+				    font-weight: bold;
+			}
+			span{
+				@extend .wittyfeedparasmall;
+			}
+		}
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	position: fixed;
+	z-index: 50;
+	top: 500;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+	
+
+

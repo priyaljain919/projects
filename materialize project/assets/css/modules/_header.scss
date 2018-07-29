@@ -1,0 +1,39 @@
+.navbar-fixed{
+	    height: 83px !important;
+	        z-index: 965 !important;
+	 
+}
+nav ul a:hover {
+    background:none !important;
+}
+.nav-wrapper{
+	.brand-logo{
+	svg{
+		margin: 9px auto !important;
+    display: inline-block !important;
+		}
+} 
+i.right{
+	margin-top: 1px !important;
+	margin-left: 0px !important;
+	}
+}
+.nav-content{
+	height:26px !important;
+	    margin: 0 0 0 5px;
+	&>ul{
+		height:25px !important;
+		li.tab{
+			height:auto !important;
+			:nth-child(n+0){
+				    outline: none;
+   					background: none !important;
+   					height:auto;
+   				}
+			a{
+   				line-height: 26px;
+   				font-size:15px !important;
+   			}
+		}
+	}
+}

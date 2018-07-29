@@ -1,0 +1,360 @@
+<html>
+<head>
+	 <!--Import Google Icon Font-->
+	<link href = "css/style1.css" rel = "stylesheet" >
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+	<body>
+			<div class = "container-fluid">
+				<div class = "navbar-fixed">
+					<nav class="nav-extended blue darken-3">
+   			 				<div class="nav-wrapper">
+      							<a href="#" class="brand-logo center">
+      								<svg xmlns="http://www.w3.org/2000/svg" width="107" height="36" viewBox="0 0 547 143">
+                            		<path d="M41 61l-4-9h12C51 58 54 64 56 68c2 4 4 8 5 11 1 3 2 6 3 7 1 2 1 3 2 5 0-3 1-5 2-7 1-2 2-5 3-7 1-3 3-6 4-10 2-4 4-9 7-15h14l-29 66c-2-4-3-7-5-11 -1-4-3-7-4-11s-3-7-4-11c-2-4-3-7-5-11 -3 7-6 15-9 21 -3 7-6 14-9 21L0 52h14c3 6 5 11 6 15 2 4 3 7 4 10 1 3 2 5 2 7 0 2 1 4 1 7 0-1 1-2 1-3 0-1 1-3 2-5 1-2 2-5 4-9C36 71 38 66 41 61z" fill="#FFF"></path>
+                            		<path d="M102 28c0-3 1-5 3-6 2-2 4-2 6-2 2 0 4 1 6 2 2 2 3 4 3 6 0 3-1 5-3 6 -2 2-4 2-6 2 -2 0-4-1-6-2C103 33 102 30 102 28zM118 114h-14V52h14V114z" fill="#FFF"></path>
+                            		<path d="M141 25h14v27h16V64h-16v49h-14V64h-10V52h10V25z" fill="#FFF"></path>
+                            		<path d="M187 25h14v27h16V64h-16v49h-14V64h-10V52h10V25z" fill="#FFF"></path>
+                            		<path d="M245 143h-14c1-3 3-6 4-8 1-3 3-5 4-8 1-3 3-6 4-9 1-3 3-6 5-9 -2-4-5-9-7-14 -2-5-5-10-7-15 -2-5-5-10-7-15 -2-5-5-9-7-14h15c4 7 7 13 9 18 2 5 4 9 6 12 1 3 3 6 3 8 1 2 1 4 2 6 1-2 1-4 2-6 1-2 2-5 3-8 1-3 3-7 6-12 2-5 5-11 9-18h15L245 143z" fill="#FFF"></path>
+                           			<path d="M293 65V52h11V39c0-13 3-23 9-29 6-6 15-9 26-10v13c-8 0-13 3-16 7 -3 4-5 11-5 19v13h19v14H318v48h-14V65H293z" fill="#FFF"></path>
+                            		<path d="M400 107c-3 3-7 5-11 6 -4 2-9 2-13 2 -5 0-9-1-13-3 -4-2-8-4-10-7 -3-3-5-6-7-10 -2-4-3-8-3-13 0-4 1-9 3-13 2-4 4-7 7-10 3-3 6-5 10-7 4-2 8-3 12-3 7 0 13 2 18 6 5 4 9 10 11 17 -3 1-6 2-10 4 -4 2-8 3-12 5 -4 2-8 3-13 5 -4 2-8 3-12 5 2 3 4 5 7 7 3 2 6 3 10 3 3 0 5 0 8-1 3-1 5-2 6-4L400 107zM387 70c-1-2-3-4-5-5 -2-1-5-2-7-2 -3 0-5 1-7 2 -2 1-4 2-6 4 -2 2-3 4-4 6 -1 2-1 4-1 7v1c2-1 5-2 8-3 3-1 6-2 8-3s5-2 8-3C383 72 385 71 387 70z" fill="#FFF"></path>
+                            		<path d="M469 107c-3 3-7 5-11 6 -4 2-9 2-13 2 -5 0-9-1-13-3 -4-2-8-4-10-7 -3-3-5-6-7-10 -2-4-3-8-3-13 0-4 1-9 3-13 2-4 4-7 7-10 3-3 6-5 10-7 4-2 8-3 12-3 7 0 13 2 18 6 5 4 9 10 11 17 -3 1-6 2-10 4 -4 2-8 3-12 5 -4 2-8 3-13 5 -4 2-8 3-12 5 2 3 4 5 7 7 3 2 6 3 10 3 3 0 5 0 8-1 3-1 5-2 6-4L469 107zM456 70c-1-2-3-4-5-5 -2-1-5-2-7-2 -3 0-5 1-7 2 -2 1-4 2-6 4 -2 2-3 4-4 6 -1 2-1 4-1 7v1c2-1 5-2 8-3 3-1 6-2 8-3s5-2 8-3C452 72 454 71 456 70z" fill="#FFF"></path>
+                            		<path d="M481 83c0-5 1-9 2-13 2-4 4-7 7-10 3-3 6-5 10-7 4-2 8-2 13-2 3 0 6 0 8 1 2 1 4 2 6 2 2 1 3 2 4 3 1 1 2 2 2 3V0h14v114h-14v-4c0 0 0-1 0-2 0-1 0-1 0-1 -1 1-2 2-3 3 -1 1-3 2-5 3 -2 1-4 2-6 2 -2 1-5 1-7 1 -5 0-9-1-13-3s-7-4-10-7c-3-3-5-6-6-10C481 92 481 87 481 83zM495 83c0 3 0 5 1 8 1 2 2 4 4 6 2 2 4 3 6 4 2 1 5 1 8 1 3 0 5 0 8-1 2-1 4-2 6-4 2-2 3-4 4-6 1-2 1-5 1-7 0-3 0-5-1-7 -1-2-2-4-4-6 -2-2-4-3-6-4 -2-1-5-1-8-1 -3 0-5 0-8 1 -2 1-4 2-6 4 -2 2-3 4-4 6C495 77 495 80 495 83z" fill="#FFF"></path>
+                        		</svg>
+      						</a>
+      						<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+     				 		<ul id="nav-mobile" class="right">
+       					 		<li><a href="#" class = "dropdown-trigger" data-target = "dropdown2">en<i class = "material-icons right">arrow_drop_down</i></a>
+       					 		<!--dropdown begins-->
+       								<ul id = "dropdown2" class = "dropdown-content ">
+       					 					<li><a href = "#" id = "en">English</a></li>
+       					 					<li class = "divider"></li>
+       					 					<li><a href = "#" id = "hn">Hindi</a></li>
+       					 					<li class = "divider"></li>
+       					 					<li><a href = "#" id = "gl">Global</a></li>
+       					 			</ul>
+								</li>
+       						<!--dropdown ends-->
+        					</ul>
+    						</div>
+			    			<div class="nav-content navbar-fixed">
+			      				<ul class="tabs tabs-transparent">
+							       	<li class="tab"><a href="#">home</a></li>
+							        <li class="tab"><a href="#">science & technology</a></li>
+							        <li class="tab"><a href="#">lifestyle</a></li>
+							        <li class="tab"><a href="#">travel & photography</a></li>
+							        <li class="tab"><a href="#">history & religion</a></li>
+							        <li class="tab"><a href="#">entainment</a></li>
+							        <li class="tab"><a href="#">sports</a></li>
+							        <li class="tab"><a href="#">foodmate</a></li>
+							        <li class="tab"><a href="#">innervoice</a></li>
+							        <li class="tab"><a href="#">quiz</a></li>
+							        <li class="tab"><a href="#">people & politics</a></li>
+							        <li class="tab"><a href="#">relationship</a></li>
+							        <li class="tab"><a href="#">india ka pulse</a></li>
+			     				</ul>
+			   				 </div>
+			   		</nav>
+			  	</div>
+			</div>
+			  <!--sidenav starts-->
+			<ul class="sidenav wittyfeedsidenav" id="mobile-demo">
+			  	<div class = "blue darken-3 white-text">
+			  		<svg xmlns="http://www.w3.org/2000/svg" width="95" height="25" viewBox="0 0 547 143"> <path d="M41 61l-4-9h12C51 58 54 64 56 68c2 4 4 8 5 11 1 3 2 6 3 7 1 2 1 3 2 5 0-3 1-5 2-7 1-2 2-5 3-7 1-3 3-6 4-10 2-4 4-9 7-15h14l-29 66c-2-4-3-7-5-11 -1-4-3-7-4-11s-3-7-4-11c-2-4-3-7-5-11 -3 7-6 15-9 21 -3 7-6 14-9 21L0 52h14c3 6 5 11 6 15 2 4 3 7 4 10 1 3 2 5 2 7 0 2 1 4 1 7 0-1 1-2 1-3 0-1 1-3 2-5 1-2 2-5 4-9C36 71 38 66 41 61z" fill="#FFF"></path> <path d="M102 28c0-3 1-5 3-6 2-2 4-2 6-2 2 0 4 1 6 2 2 2 3 4 3 6 0 3-1 5-3 6 -2 2-4 2-6 2 -2 0-4-1-6-2C103 33 102 30 102 28zM118 114h-14V52h14V114z" fill="#FFF"></path> <path d="M141 25h14v27h16V64h-16v49h-14V64h-10V52h10V25z" fill="#FFF"></path> <path d="M187 25h14v27h16V64h-16v49h-14V64h-10V52h10V25z" fill="#FFF"></path> <path d="M245 143h-14c1-3 3-6 4-8 1-3 3-5 4-8 1-3 3-6 4-9 1-3 3-6 5-9 -2-4-5-9-7-14 -2-5-5-10-7-15 -2-5-5-10-7-15 -2-5-5-9-7-14h15c4 7 7 13 9 18 2 5 4 9 6 12 1 3 3 6 3 8 1 2 1 4 2 6 1-2 1-4 2-6 1-2 2-5 3-8 1-3 3-7 6-12 2-5 5-11 9-18h15L245 143z" fill="#FFF"></path> <path d="M293 65V52h11V39c0-13 3-23 9-29 6-6 15-9 26-10v13c-8 0-13 3-16 7 -3 4-5 11-5 19v13h19v14H318v48h-14V65H293z" fill="#FFF"></path> <path d="M400 107c-3 3-7 5-11 6 -4 2-9 2-13 2 -5 0-9-1-13-3 -4-2-8-4-10-7 -3-3-5-6-7-10 -2-4-3-8-3-13 0-4 1-9 3-13 2-4 4-7 7-10 3-3 6-5 10-7 4-2 8-3 12-3 7 0 13 2 18 6 5 4 9 10 11 17 -3 1-6 2-10 4 -4 2-8 3-12 5 -4 2-8 3-13 5 -4 2-8 3-12 5 2 3 4 5 7 7 3 2 6 3 10 3 3 0 5 0 8-1 3-1 5-2 6-4L400 107zM387 70c-1-2-3-4-5-5 -2-1-5-2-7-2 -3 0-5 1-7 2 -2 1-4 2-6 4 -2 2-3 4-4 6 -1 2-1 4-1 7v1c2-1 5-2 8-3 3-1 6-2 8-3s5-2 8-3C383 72 385 71 387 70z" fill="#FFF"></path> <path d="M469 107c-3 3-7 5-11 6 -4 2-9 2-13 2 -5 0-9-1-13-3 -4-2-8-4-10-7 -3-3-5-6-7-10 -2-4-3-8-3-13 0-4 1-9 3-13 2-4 4-7 7-10 3-3 6-5 10-7 4-2 8-3 12-3 7 0 13 2 18 6 5 4 9 10 11 17 -3 1-6 2-10 4 -4 2-8 3-12 5 -4 2-8 3-13 5 -4 2-8 3-12 5 2 3 4 5 7 7 3 2 6 3 10 3 3 0 5 0 8-1 3-1 5-2 6-4L469 107zM456 70c-1-2-3-4-5-5 -2-1-5-2-7-2 -3 0-5 1-7 2 -2 1-4 2-6 4 -2 2-3 4-4 6 -1 2-1 4-1 7v1c2-1 5-2 8-3 3-1 6-2 8-3s5-2 8-3C452 72 454 71 456 70z" fill="#FFF"></path> <path d="M481 83c0-5 1-9 2-13 2-4 4-7 7-10 3-3 6-5 10-7 4-2 8-2 13-2 3 0 6 0 8 1 2 1 4 2 6 2 2 1 3 2 4 3 1 1 2 2 2 3V0h14v114h-14v-4c0 0 0-1 0-2 0-1 0-1 0-1 -1 1-2 2-3 3 -1 1-3 2-5 3 -2 1-4 2-6 2 -2 1-5 1-7 1 -5 0-9-1-13-3s-7-4-10-7c-3-3-5-6-6-10C481 92 481 87 481 83zM495 83c0 3 0 5 1 8 1 2 2 4 4 6 2 2 4 3 6 4 2 1 5 1 8 1 3 0 5 0 8-1 2-1 4-2 6-4 2-2 3-4 4-6 1-2 1-5 1-7 0-3 0-5-1-7 -1-2-2-4-4-6 -2-2-4-3-6-4 -2-1-5-1-8-1 -3 0-5 0-8 1 -2 1-4 2-6 4 -2 2-3 4-4 6C495 77 495 80 495 83z" fill="#FFF"></path> </svg>
+
+			  	</div>
+			  	<div class = "wittyfeedsidenavcontent">
+			  		<ul class = "list-unstyle">
+					    <li ><a href="#">Home</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">Science & technology</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">lifestyle</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">travel & photography</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">history & religion</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">entertainment</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">sports</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">foodmate</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">innervoice</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">quiz</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">people & politics</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">relationship</a></li>
+					    <li class = "divider"></li>
+					    <li><a href="#">india ka pulse</a></li>
+			    	</ul>
+				</div>
+				<div class = "blue darken-2 wittyfeedsidenavfooter">
+					<ul class = "list-inline center-align">
+						<li><a href = "#"><span> &#9679;</span>About Us</a></li>
+						<li><a href = "#"><span > &#9679;</span>Terms Of Use</a></li>
+						<li><a href = "#"><span > &#9679;</span>Privacy Policy</a></li>
+						<li><a href = "#"><span > &#9679;</span>Advertise</a></li>
+						<li><a href = "#"><span > &#9679;</span>Sitemap</a></li>
+						<li><a href = "#"><span > &#9679;</span>Careers</a></li>
+						<li><a href = "#"><span > &#9679;</span>Contact Us</a></li>
+					</ul>
+					<p class = "white-text center-align">Vatsana Technologies @ 2018</p>
+				</div>
+			</ul>
+			<!--sidenav ends-->
+			  <!--navbar ends-->
+       	
+		<div class = "container-fluid">
+			<div class = "row">
+				<div class = "col s12 m12 Wittyfeedimage">
+					<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/block1.webp');background-repeat:no-repeat;"></a>
+					<h1><a href = "#" class = "black-text">People Support PM Modi in light of Assasination Threat</a></h1>
+					<p><a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">ankita</span></a></p>
+				</div>
+				<div class = "col s6 m6 Wittyfeedimage">
+					<a href = "#" class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/block3.jpeg');background-repeat:no-repeat;"></a>
+					<h3><a href = "#" class = "black-text">Why are More than 90% of Engineering Graduates...</a></h3>
+					<p><a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">ankita</span></a></p>
+				</div>
+				<div class = "col s6 m6 Wittyfeedimage">
+					<a href = "#" class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/block5.jpeg');background-repeat:no-repeat;"></a>
+					<h3><a href = "#" class = "black-text">10 times Sonam Kapoor was the Best at Everything</a></h3>
+					<p ><a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">dhwani</span></a></p>
+				</div>
+				<div class = "col s12 m12 wittyfeedstoriessection">
+					<h3 class = "pink-text">latest<span class = "blue-text text-darken-3">stories</span></h3>
+				</div>
+				<div class = "col s12 m12 Wittyfeedscroll">
+					<div class = "wittyfeedhorizontalscroll">
+						<div class = "wittyfeedscrollview">
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/scroll1.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">Indian Captain Sunil Chhetri Equals Messi's Record and Wins Intercontinental Cup </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">dhwani</span></a>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/scroll2.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">15 Magical Moments Before Your Relationship Reaches the Next Level </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">reeya</span></a>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/scroll3.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">15 Tweets by Netflix India That Prove They Have No Chills to Give  </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">muskan</span></a>
+								<p></p>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/scroll4.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">This is How Ek Sakha Social Welfare Society Brought Elation Amongst the Needy </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">devang singh</span></a>
+								<p></p>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/scroll5.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">14 Peblo Neruda Quotes on Love and Loss That will Tug Your Heartstrings  </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">vasundhara</span></a>
+								<p></p>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/scroll6.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">Delhi-NCR Engulfed by Dust Storm, Thunderstorm, and Squall in Broad Daylight </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">kunal</span></a>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "col wittyfeedvedios wittyfeedwfvideos ">
+				<div class = "col s12 m12 ">
+					<h3 class = "pink-text">wf<span class = "white-text">videos</span></h3>
+				</div>
+				<div class = "col s12 m12">
+					<a href = "#">
+					<div class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/wfvedio1.jpeg');background-repeat: no-repeat;"></a>
+					<a href = "#" class = "wittyfeedvediolayer"></a>
+					<a href = "#"><img src = "images/playbutton.png" class = "wittyfeedplaybutton responsive-img">
+					</a>
+					</div>
+					<p ><a href = "#" class = "white-text">Cobrapost Founder's Exclusive Interview That No Mainstream Media Will Ever Show You</a></p>
+				</div>
+				<div class = "col s6 m6">
+					<a href = "#"><div class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/wfvedio2.jpeg');background-repeat: no-repeat;"></a>
+					<a href = "#" class = "wittyfeedvediolayer"></a>
+					<a href = "#"><img src = "images/playbutton.png" class = "wittyfeedplaybutton responsive-img">
+					</a>
+					</div>
+					
+					<p><a href = "#" class = "white-text">Here's How Police is Gearing Up To Prevent Us From Cyber Crimes and</a></p>
+				</div>
+				<div class = "col s6 m6">
+					<a href = "#">
+					<div class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/wfvedio3.jpeg');background-repeat: no-repeat;"></a>
+					<a href = "#" class = "wittyfeedvediolayer"></a>
+					<a href = "#"><img src = "images/playbutton.png" class = "wittyfeedplaybutton responsive-img">
+					</a>
+					</div>
+					<p ><a href = "#" class = "white-text">How Important It is To Speak About Crimes And Serve The Victims With</a></p>
+				</div>
+				<div class = "col s6 m6">
+					<a href = "#">
+					<div class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/wfvedio4.jpeg');background-repeat: no-repeat;"></a>
+					<a href = "#" class = "wittyfeedvediolayer"></a>
+					<a href = "#"><img src = "images/playbutton.png" class = "wittyfeedplaybutton responsive-img">
+					</a>
+					</div>
+					<p ><a href = "#" class = "white-text">College Students Make Women Jacket That Generates Electric Shoc</a></p>
+				</div>
+				<div class = "col s6 m6">
+					<a href = "#">
+					<div class = "wittyfeedimgblock responsive-img" style = "background-image: url('images/wfvedio5.jpeg');background-repeat: no-repeat;"></a>
+					<a href = "#" class = "wittyfeedvediolayer"></a>
+					<a href = "#"><img src = "images/playbutton.png" class = "wittyfeedplaybutton responsive-img">
+					</a>
+					</div>
+					<p ><a href = "#" class = "white-text">Dhadak Trailer Out! Janhvi and Ishaan Spark a Beautiful Chemistry</a></p>
+				</div>
+				</div>
+				<!--quiz scroll begins-->
+				<div class = "col s12 m12 wittyfeedstoriessection">
+					<h3 class = "pink-text">quiz<span class = "blue-text text-darken-3">feed</span></h3>
+				</div>
+				<div class = "col s12 m12 Wittyfeedscroll">
+					<div class = "wittyfeedhorizontalscroll">
+						<div class = "wittyfeedscrollview">
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/quizfeed1.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">Are You a Filmy Keeda?Prove it by Answering These Questions</a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">guneet</span></a>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/quizfeed2.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">Only a Jabra Bollywood Fan Can Guess the Movie by these Dialogues </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">guneet</span></a>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/quizfeed3.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">If You Are a Language Expert, Try Scoring 7/10 in This Phrase Quiz </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">muskan</span></a>
+								<p></p>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/quizfeed4.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">Can You Guess the Bollywood Celebrity from Photos of their Tattoos?</a></p>
+								<a  href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">muskan</span></a>
+								<p></p>
+							</div>
+							<div class = "wittyfeedscrollsize">
+								<a href = "#" class = "wittyfeedimgblock" style = "background-image: url('images/quizfeed5.jpeg');background-repeat:no-repeat;"></a>
+								<p><a href = "#" class = "black-text">14 Peblo Neruda Quotes on Love and Loss That will Tug Your Heartstrings  </a></p>
+								<a href = "#" class = "grey-text">by<span class = "blue-text text-darken-3">vasundhara</span></a>
+								<p></p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!--quiz scroll ends-->
+				<!--eat sleep grid begins-->
+				<div class = "col s12 m12 wittyfeedstoriessection">
+					<h3 class = "pink-text">eat sleep<span class = "blue-text text-darken-3">read repeat</span></h3>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat1.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>Here's How Karan Wahi Rose from being a Cricketer to an Actor</h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">dhwani</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#"  class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat2.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>Shah Rukh Khan's Cousin Contests Pak Elections;</h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">muskan</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat3.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>Yahoo Messenger Shuts Down for Good after a 'Glorious' Run </h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">dr sami</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat4.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>16 Different Tea Types and their Benefits</h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">sneha</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/block5.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>10 Times Sonam Kapoor was the Best at Everything</h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">dhwani</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat5.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>Here's a Unique Opportunity for Tech Enthusiasts for showcas...</h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">dhruv</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat6.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>12 Typical Hindi Words and Their Meaning </h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">guneet</span></a>
+					</div>
+
+				</div>
+				<div class = "preloader-background">
+				<div class="preloader-wrapper center small active ">
+				    <div class="spinner-layer spinner-black">
+				      <div class="circle-clipper left">
+				        <div class="circle"></div>
+				      </div><div class="gap-patch">
+				        <div class="circle"></div>
+				      </div><div class="circle-clipper right">
+				        <div class="circle"></div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				  <div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat6.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>12 Typical Hindi Words and Their Meaning </h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">guneet</span></a>
+					</div>
+				</div>
+				<div class = "col s12 m12 wittyfeedeatrepeat">
+					<a href = "#" class = "wittyfeedeatrepeatimg left" style = "background-image: url('images/eatrepeat6.jpeg');background-repeat:no-repeat"></a>
+					<div class = "left">
+						<a href = "#" class = "black-text "><h1>12 Typical Hindi Words and Their Meaning </h1></a>
+						<a href = "#"><span class = "blue-text text-darken-3">guneet</span></a>
+					</div>
+				</div>
+				<!--eat sleep grid ends-->
+				<!--preloader function starts-->
+				
+				<!--preloader function ends-->
+			</div>
+		</div>
+		<!--JavaScript at end of body for optimized loading-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">      </script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
+	</body>
+
+
+
+</html>

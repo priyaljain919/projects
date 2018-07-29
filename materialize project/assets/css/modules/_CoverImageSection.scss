@@ -1,0 +1,27 @@
+.wittyfeedparasmall{
+	font-size: 11px;
+	margin-top: 0px !important;
+	text-transform: uppercase;
+}
+.Wittyfeedimage{
+	margin-top: 10px !important;
+	img{
+		width:100%;
+	}
+	h1{
+		font-size: 21px !important;
+		font-weight: bold;
+		margin: 0.8rem 0  0 !important;
+	}
+	h3{
+		font-size: 16px !important;
+		font-weight: bold;
+		margin: 0.8rem 0  0 !important;
+	}
+	p {
+			@extend .wittyfeedparasmall;
+			span{
+				padding-left: 5px;
+			}
+		}
+}

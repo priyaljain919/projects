@@ -1,0 +1,34 @@
+.dropdown-trigger{
+	outline: none !important;
+}
+.dropdown-content{
+	       position: absolute !important;
+    		top: 49px !important;
+		 	height: 116px !important;
+		    width: 113px !important;
+		    left: 246px !important;
+		    min-width: 0px !important;
+		    border-style: none !important;
+		    overflow-y: inherit !important;
+
+		    li{
+		    	    min-height: 0px !important;
+		    	a{
+		    		padding: 8px 30px !important;
+		    		color:$color !important;
+		    	
+		    		
+		    	}
+		    }
+		    &::before{
+		    	content: '';
+			    border-bottom: 7px solid white;
+			    border-right: 7px solid transparent;
+			    border-left: 7px solid transparent;
+			    position: absolute;
+			    top: -7px;
+			    z-index: 999;
+			    right: 18px;
+		    }
+
+}
