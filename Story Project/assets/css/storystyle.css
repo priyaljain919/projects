@@ -1,0 +1,1074 @@
+.container1 {
+    background-color: #3366cc;
+    border-style: none;
+    /* height: 60px; */
+}
+.w3-sidebar {
+    height: 100%;
+    width: 296px;
+    background-color: #1a2942;
+    color: white;
+    position: fixed!important;
+
+    z-index: 1;
+    overflow: auto;
+}
+.sidebarstyle ul li {
+    padding: 15px 9px;
+    font-size: 16px;
+
+
+}
+.sidebardisplay > li {
+  display: inline;
+  font-size: 12px !important;
+  font-family: lato;
+
+
+  
+  
+}
+.w3-bar-item > img{
+   height: 24px;
+  width: 24px;
+  margin-right: 8%;
+}
+
+.sidebarspanstyle span{
+  margin-right: 2%;
+}
+.sidebarfooter {
+    
+        color: white;
+    padding: 0px;
+    /* font-size: 16px; */
+    margin: :auto;
+      text-align: center;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    margin: auto;
+    background: #101b2d;
+}
+
+.sidebarfooter > p {
+  text-align: center;
+    color: #eee;
+    font-size: 11px;
+    opacity: .4;
+    margin-top: 15px
+}
+.sidebariconspacing{
+  margin-left: 5px;
+}
+
+.w3-button:hover {
+    color: #f6f2f2!important;
+    background-color: #1a2942 !important; 
+    text-decoration: none !important;
+}
+.w3-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 3;
+}
+.Onefeedtextarea textarea{
+  width: 89%;
+    height: 63px;
+    margin: auto;
+  }
+
+
+
+.wittyFeedStyle a:nth-child(1){
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    list-style-type:none;
+    
+
+   
+}
+
+.Onefeednavbarstyle div:first-of-type{
+  margin-right: 20px;
+}
+.move-left1 a:nth-child(1) img{
+	
+    display: block;
+    float: left;
+    border-radius: 50%;
+	width: 95px;
+	height: 95px;
+}
+.Onefeedsidebaricon a, .Onefeedsidebaricon a:hover{
+	margin-top: 0px;
+      background: none !important;
+      color: #fbfafa!important;
+      box-shadow: none;
+
+}
+
+
+
+
+
+.submitstyle i{
+    height: 16px;
+    margin-top: 3px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+
+}
+.goingviralImgstyle > img{
+  height:20px;
+  width:20px;
+  margin-bottom: 5px;
+}
+.submit1style > a{
+	background-color: black;
+	box-shadow: none;
+}
+ .submit1style:hover{
+	background-color: black;
+	box-shadow: none;
+}
+.submit1style:hover{
+	background-color: black;
+	box-shadow: none;
+}
+ 
+.submitcontentheader a:last-child, .submitcontentheader a:last-child:hover {
+    background-color: black;
+    color: white;
+   
+    
+    margin-bottom: 3px;
+ }
+
+.containerfluidstyle{
+  background-color:#e6f3ff;height:50px;
+}
+.glyStyle a i:last-of-type{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.Onefeedimagestyle{
+	height: 90%;
+    width: 30%;
+    margin-top: 2px;
+}
+.goingviral b{
+  font-size: 16px;
+  color:gray;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.goingviralIcon img:nth-child(1){
+   
+    margin-left:5px;
+    margin-bottom: 5px;
+}
+.headerbtn a:nth-child(n+1)  {
+     height: 30px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+.headerbtn2 a:last-child  {
+     height: 30px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    color: white !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+.likeusonfacebook1 i:last-of-type b{
+      padding-left: 154px;
+}
+
+.coloreffect a:first-child{
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+   margin-bottom: 8px;
+
+}
+
+.likeiconstyle a:last-child  i{
+  font-size:16px;color:white;
+}
+.likeusonfacebook i:last-of-type{
+	    
+    font-size: 16px;
+}
+.btn-default:hover{
+	background-color: white;
+}
+
+.OnefeedSocialmediaIcons{
+	position: fixed;
+    height: auto;
+    top: 200px;
+    margin-left: 40px;
+}
+
+
+.OnefeedFacebookbtn li:first-of-type a, .OnefeedFacebookbtn li:first-of-type a:hover {
+	background-color: #2952a3;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    height: 55px;
+    width: 56px;
+    padding-top: 11px;
+}
+.OnefeedPinterestbtn li:nth-child(3) a , .OnefeedPinterestbtn li:nth-child(3) a:hover{
+	background-color: #b30000;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    height: 55px;
+    width: 55px;
+    padding-top: 12px;
+}
+.OnefeedTwitterbtn li:nth-child(2) a , .OnefeedTwitterbtn li:nth-child(2) a:hover{
+	 background-color: #1aa3ff;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    height: 55px;
+    width: 55px;
+    padding-top: 12px;
+
+}
+
+.OnefeedSocialmediaIcons li{
+	margin-top: 20px;
+}
+
+.OnefeedEnvelopebtnIcon li:nth-child(4) a, .OnefeedEnvelopebtnIcon li:nth-child(4) a:hover {
+	border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    height: 55px;
+    width: 55px;
+    padding-top: 10px;
+    
+}
+
+.OnefeedSharebtnIcon li:nth-child(5) a , .OnefeedSharebtnIcon li:nth-child(5) a:hover{
+	color: white;
+    background-color: #00b300;
+    font-size: 28px;
+    border-radius: 70%;
+    height: 55px;
+    width: 55px;
+    padding-top: 12px;
+    box-shadow: none;
+}
+.OnefeedBannerMargin li:nth-child(n+0){
+	margin-top: 20px;
+}
+
+.Onefeedbannerimg > img{
+  margin: auto; display: block;
+}
+
+.OnefeedBannerMargin1 h3{
+	margin-top: 40px;
+}
+.bannerFont p:nth-child(2){
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.bannerFooterFont p:nth-child(3){
+	font-size: 30px;
+	text-align: center;
+
+}
+.OnefeedPosition div:nth-child(1){
+	display: inline-block;
+}
+
+.ShiftHeading article:nth-child(2){
+	margin-top: 18px;
+	margin-left: 8px;
+
+
+}
+.spacing{
+
+	font-size: 15px;
+	
+
+}
+.move-left{
+	float: left;
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+	
+}
+.colors article:nth-child(2){
+	font-size: 15px;
+	color: gray;
+	float: left;
+}
+.onefeedIconHeadingstyle a{
+	color:#0066ff;
+	font-size: 20px;
+	
+
+}
+.spacind2days p{
+
+	font-size: 16px;
+	color: gray;
+}
+
+.OnefeedButtonStyle a{
+	 float: right;
+    margin-left: 10px;
+
+}
+.OnefeedArticleSectionContent p{
+	font-size: 18px;
+}
+.OnefeedbtnSize a{
+	font-size: 16px;
+}
+.Onefeedimagewidth img{
+	width: 100%;
+}
+.OnefeedSponsoredSection > p{
+	    text-align: right;
+    font-size: 11px;
+    line-height: 0.1;
+}
+
+.OnefeedImg img:last-of-type{
+	float: right;
+
+}
+.Onefeedmarginspacing p{
+	margin-top: 10px;
+}
+.onefeedourcategory{
+   margin-left: 36px;
+}
+.onefeedourproperty{
+  margin-left: 32px;
+}
+.blurImg1 img:nth-child(1){
+      width: 98%;
+    height: 724px;
+    position: absolute;
+    filter: blur(7px);
+}
+.withoutBlur1 img:nth-child(2){
+     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.blurImg img:nth-child(1){
+      background-repeat: no-repeat;
+    width: 98%;
+    height: 757px;
+    position: absolute;
+    display: inline-block;
+    filter: blur(7px);
+}
+.withoutBlur img:nth-child(2){
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    filter: none;
+    margin: -2px;
+    position: relative;
+    display: block;
+    /* margin-left: 215px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  
+}
+.advertisementRow{
+  margin-top: 30px;
+}
+.advertisementbottomline {
+    margin-top: 149px;
+}
+.advertisementImg img{
+  margin: auto;
+  
+}
+.advertisementspanStyle span{
+  font-size: 16px;
+  margin-left: 490px;
+  color:gray;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.advertisementcolstyle{
+  margin-top: 30px;
+  text-align: center;
+}
+.Onefeedimage img{
+	  height: 20px;
+    margin-left: 10px;
+    /* padding-bottom: 5px; */
+    margin-bottom: 7px;
+}
+.Onefeedbackgroundstyle  a{
+  background: none !important;
+}
+.Onefeeddropdownheader1 a ,.Onefeeddropdownheader1 a:hover{
+  color: black !important;
+  font-size: 16px !important;
+} 
+.formgrpstyle div:nth-child(1){
+  margin-left: 60px;
+}
+
+
+.wf-separator-line{
+    border-top-style: dashed;
+  border-top-width: thin;
+    border-color: lightgray;
+    position: absolute;
+    width: 100%;
+    top: 8.2px;
+    z-index: -9;
+  }
+.blurImg2 img:nth-child(1) {
+      background-repeat: no-repeat;
+    width: 98%;
+    height: 397px;
+    position: absolute;
+    display: inline-block;
+    filter: blur(5px);
+}
+.withoutBlur2 img:nth-child(2) {
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    filter: none;
+    margin: -2px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ 
+}
+
+.blurImg3 img:nth-child(1){
+  background-repeat: no-repeat;
+    width: 98%;
+    height: 846px;
+    position: absolute;
+    display: inline-block;
+    filter: blur(7px);
+}
+.withoutBlur3 img:nth-child(2){
+     background-repeat: no-repeat;
+    background-position: center center;
+    filter: none;
+    margin: -2px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+  
+  
+}
+.Musicbtn1style a:nth-child(1), .Musicbtn1style a:nth-child(1):hover{
+  	height: 32px;
+   	font-size: 20px;
+    border-radius: 10px;
+ 	 color: #0066ff;
+    box-shadow: none;
+    padding-top: 2px;
+
+   }
+.MusicCelebbtn1style a:nth-child(n+1) , .MusicCelebbtn1style a:nth-child(n+1):hover{
+    height: 32px;
+   	padding-top: 3px;
+    padding-left: 13px;
+ 	font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #0066ff;
+    box-shadow: none;
+}
+.likedThestorystyle p:first-child{
+ 	font-size: 45px;
+    color: #0044cc;
+    font-weight: bold;
+    line-height: 1.1;
+    float: left;
+}
+.likedstorypara p:last-of-type{
+	font-size: 18px;
+  	color: gray;
+  	line-height: 0.0;
+  	float: left;
+}
+.dropdowndotToggle{
+  float:right;
+  margin-top: 10px;
+ 
+}
+.doticonTogglestyle a:first-child{
+     font-size: 20px;
+    background-color: gray;
+    box-shadow: none;
+}
+.doticonToggleImg a:nth-child(1) img{
+  
+  width:20px;
+   box-shadow: none;
+}
+.triangle-down {
+	width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 15px solid #ccc;
+}
+
+.triangle-down::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid lightgray;
+}
+.piInterestbtn{
+	width: 85px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 20px;
+    float: right;
+}
+.twitterbtn{
+  	
+  	width: 85px;
+    margin-right: 20px;
+    text-align: left;
+    float: right;
+    font-size: 20px;
+    background: #00ACEE;
+}
+
+.facebookbtn{
+
+	width: 85px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 17px;
+    float: right;
+}
+.Social a{
+	width: 85px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 17px;
+    float: right;
+    margin-top: 10px;
+}
+.Onefeedimagedropdown img:nth-child(n+0){
+    height: 17px;
+    width: 36px;
+    padding-right: 10px;
+}
+.Onefeeddropdowncolor li:nth-child(n+0) a{
+	
+	font-size: 17px;
+  background-color: white;
+	    border-bottom: 1px solid;
+}
+.commentbold p{
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+}
+
+.comments img{
+    height:15px;
+    width: 20px;
+    float: left;
+  }
+  .figcaption1 figcaption{
+  color:#0044cc;
+}
+.articleSection{
+  float:right;
+  font-size: 20px;
+}
+
+.selectOption{
+  float:right;
+  font-size: 20px;
+}
+.articleSection select,article{
+	float:right;
+ 	 font-size: 20px;
+}
+.commentsSection img{
+  height:60px;
+  width:70px;
+  float: left;
+}
+.OnefeedUpnextspan{
+	font-size: 38px;
+    margin-left: 455px;
+    color: #c0052c;
+    background-color: white;
+}
+
+.OnefeedseparaterlineSpacing{
+	padding-left: 10px;
+}
+.OnefeedUpnextstyle{
+	 font-size: 38px;
+ 	 background-color: white;
+ 	 padding-right: 10px;
+
+}
+.OnefeedUpnextdivstyle{
+  float:left;
+  display:inline-block;
+  margin-bottom: 20px; 
+}
+.OnefeedUpnextImg img{
+	 clear: both;
+    height: 337px;
+    width: 350px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.OnefeedUpnextcolstyle{
+	float:right; 
+  display:inline-block;
+}
+.OnefeedUpnextbold a:first-child , .OnefeedUpnextbold a:first-child:hover{
+	font-size: 44px;
+  	text-align:left;
+  	color: black;
+  	box-shadow: none;
+  	line-height: 1.01;
+  	font-weight: bold;
+  	text-decoration: none;
+}
+.Onefeedupnextpara p{
+  font-size: 18px;
+  margin-top: 14px;
+  color: gray;
+}
+.Onefeedupnextpara{
+  font-size: 23px;
+  margin-top: 14px;
+  color: gray;
+}
+.OnefeedUpnextbtn a:last-of-type{
+     margin-top: 17px;
+    margin-left: 263px;
+}
+.btncolor a:last-of-type{
+	background-color: #e6b800;
+	color: black;
+	font-size: 20px;
+}
+
+.wf-separator-line3{
+    border-top-style: solid;
+  border-top-width: thin;
+    border-color: orange;
+    position: absolute;
+   
+    width: 100%;
+    top: 21.2px;
+    z-index: -9;
+  }
+  .wf-separator-line31{
+    border-top-style: solid;
+  border-top-width: thin;
+    border-color: orange;
+    position: absolute;
+    width: 50%;
+    top: 19.2px;
+    z-index: -9;
+  }
+
+  .wf-separator-line4{
+     border-top-style: solid;
+    border-top-width: thin;
+    border-color: orange;
+    position: absolute;
+    width: 68%;
+    margin-left: 93px;
+    /* margin-top: 11px; */
+    top: 247.4px;
+    z-index: -5;
+  }
+  .wf-separator-line4::after{
+    border-top-style: solid;
+  border-top-width: thin;
+    border-color: orange;
+    position: relative;
+    width: 80%;
+    
+    top: 8.4px;
+    z-index: -5;
+  }
+
+  .wittyfeedSection h3{
+      border: 2px solid #333;
+    position: relative;
+    border-left: 0;
+    display: inline-block;
+    padding: 5px;
+    padding-right: 14px;
+    margin-left: 0;
+    font-size: 1.3em;
+    margin-top: 15px;
+    font-weight: 600;
+    float: left;
+
+  }
+  .wittyfeedSection h3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    top: -2px;
+    left: 0;
+    border: 2px solid #fff;
+  }
+
+  .morefromwittyfeedh3 h3{
+  margin-top: 40px;
+}
+.morefromwittyfeedStyle span{
+  color:#e60073;
+  font-size: 35px;
+}
+.morefromwittyfeedbold b{
+  font-size: 35px;
+}
+
+.OnefeedPopularcategorycolstyle{
+	    margin-top: 10px;
+    height: 564px;
+    width: 560px;
+}
+.shadow3{
+
+   border: 1px solid lightgray;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.OnefeedPopularcategoryrow{
+	 margin-top: 25px;
+}
+.UPNEXTimgstyle img{
+  clear:both;
+   height:110px;
+   width:168px;
+   margin-right:20px
+   ;display:inline-block;
+   float:left;
+}
+.UPNEXTanchor a , .UPNEXTanchor a:hover{
+ 	color: gray;
+    box-shadow: none;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.OnefeedPopularcategorymargin{
+	margin-left: 28px;
+}
+.shadow1{
+ 
+   border: 1px solid lightgray;
+
+}
+
+.morefromTablestyle{
+ height: 220px;
+    width: 551px;
+    margin-top: 20px;
+}
+
+.OnefeedTrendingImgstyle img{
+
+	height:219px;
+  width:200px;
+  
+}
+.OnefeedBannerMargin2{
+	padding: 0;
+}
+.morefromTitlestyle p:nth-child(1){
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.morefromTitleanchor p:nth-child(1) a, .morefromTitleanchor p:nth-child(1) a:hover{
+  color:black;
+  box-shadow: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.morefromParastyle p:nth-child(2){
+  margin-left: 10px;
+  font-size: 20px;
+}
+.morefromParaanchor p:nth-child(2) a , .morefromParaanchor p:nth-child(2) a:hover{
+  cursor: pointer;
+  box-shadow: none;
+  color:gray;
+  text-decoration: none;
+}
+.morefromGuneetstyle b:nth-child(3){
+  margin-top: 20px;
+  margin-left: 10px;
+  color:gray;
+}
+.bystyle{
+ 
+}
+.guneetbyanchor a:nth-child(4) , .guneetbyanchor a:nth-child(4):hover {
+  box-shadow: none;
+   color:#0066ff;
+   font-weight: bold;
+   text-decoration: none;
+}
+.morefromCelebrityanchor a:last-of-type , .morefromCelebrityanchor a:last-of-type:hover {
+  box-shadow: none;
+  cursor:pointer;
+  color:white;
+  text-decoration: none;
+}
+.morefromCelebritystyle a:nth-child(5){
+  background-color:#0066ff;
+  float:right;
+  color: white;
+  width:100px;
+  text-align: center;
+  padding-top:5px;
+  padding-bottom: 3px;
+}
+.morefromTablestyle {
+    height: 220px;
+    width: 551px;
+    margin-left: 25px;
+    border: 1px solid lightgray;
+}
+
+.footer1{
+  background-color: #0077b3;
+  margin-top: 30px;
+  height:600px;
+}
+.wittyfeedSection2 h3{
+     border: 2px solid white;
+    position: relative;
+    border-left: 0;
+    display: inline-block;
+    padding: 5px;
+    padding-right: 14px;
+    margin-left: 53px;
+    font-size: 1.3em;
+    margin-top: 27px;
+    font-weight: 600;
+    float: left;
+
+  }
+   .wittyfeedSection2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    top: -2px;
+    left: 0;
+    border: 2px solid  #0077b3;
+  }
+
+  .wittyfeedourcategory h3, .wittyfeedTrendingstyle h3{
+  color:white;
+  font-size: 35px;
+}
+.footer2 a:nth-child(n+0) , .footer2 a:nth-child(n+0):hover{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+
+}
+.OnefeedFooterwidth li:nth-child(n+0){
+	width: 140px;
+}
+.wittyfeedSection1 h3{
+        border: 2px solid white;
+    position: relative;
+    border-left: 0;
+    display: inline-block;
+    padding: 5px;
+    padding-right: 14px;
+    margin-left: 33px;
+    font-size: 1.3em;
+    margin-top: 31px;
+    font-weight: 600;
+    float: left;
+
+  }
+   .wittyfeedSection1 h3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    top: -2px;
+    left: 0;
+    border: 2px solid  #0077b3;
+  }
+  .buttonfooter{
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+.arrowupp1{
+  font-size:24px;
+  color:white;
+
+}
+
+.Onefeedcarousaleffect{
+	background-image: none;
+}
+.Onefeedcarousalimg{
+		width: 40px;
+		height: 40px;
+		background-image: none;
+
+}
+.wittyfeedOurpropertystyle{
+ color:white;
+ font-size: 35px;
+}
+.wittyfeedsectionfooterKeepin{
+color:white;
+font-size: 35px;
+}
+.wittyfeedsectionfooterIntouch{
+  font-size: 35px;
+  color:white;
+}
+.iconfb{
+  color:white;
+  box-shadow: none;
+}
+.iconhyperlink{
+  box-shadow: none;
+}
+.iconfbstyle{
+  color:white;
+ 	
+  font-size: 25px;
+}
+.followus{
+     color: white;
+    margin-top: 9px;
+    margin-left: 40px;
+   font-size: 20px;
+}
+.IconTwitter{
+  margin-left: 20px;
+  color:white;
+  font-size: 20px
+}
+.Iconss{
+  font-size:24px;
+  margin-left: 20px;
+  color:white;
+}
+.getourapp{
+      color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: -9%;
+}
+.IconAndroid{
+  font-size:24px;
+  
+  color:white;
+}
+.IconApple{
+  font-size:24px;
+  margin-left: 20px;
+  color:white;
+}
+.Onefeedfooterstyle{
+	
+		height: 80px;
+}
+.footersection{
+  color:white;
+  margin-left: 45px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footerarrow1{
+  font-size:24px;
+  color:white;
+  opacity:0.4;
+  float: right;
+
+}
+.vatsanablur{
+  color:white;
+  font-size: 16px;
+  opacity: 0.4;
+  font-weight: bold;
+}
+.vatsana{
+  color:white;
+  box-shadow: none;
+ 
+}
+.Onefeedfooterstyle{
+	background-color: #004466;height:80px;
+}
+.Onefeedendfooterstyle{
+	list-style-type: none;text-align: center;margin-top: 10px;
+}
+.Onefeedendseparator{
+	margin-top: 1091px;
+}
+
+
+/* @media only screen and (max-width:767px){
+
+  .OnefeedSocialmediaIcons{display: none}
+} */

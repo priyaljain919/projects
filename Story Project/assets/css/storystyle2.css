@@ -1,0 +1,376 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+
+	.container1 {
+		width: 100%;
+	}
+	
+	.input-group{
+		display: none;
+	}
+	.navbar-form{
+		display: none;
+	}
+	.containerfluidstyle {
+		display: none;
+	}
+	.wittyFeedStyle {
+		color: white;
+		font-size: 25px;
+	}
+	.Onefeedimage {
+		height: 20px;
+		margin-left: 7px;
+		/* padding-bottom: 5px; */
+		margin-bottom: 7px;
+	}
+	/* .OnefeedDisplay > li
+	 {
+		display: inline-block;
+		margin-left: 0px;
+	} */
+
+	.OnefeedDisplay ul:nth-child(2n){
+		display: inline-block;
+		margin-left: 0px;
+	}
+	.OnefeedSocialmediaIcons {
+		display: none;
+	}
+	.bannerFont {
+		font-size: 24px;
+		margin-top: 5px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.bannerFooterFont {
+		font-size: 18px;
+		text-align: center;
+	}
+	.OnefeedHideContent {
+		display: none;
+	}
+	.move-left1 {
+		display: block;
+		float: left;
+		border-radius: 50%;
+		width: 55px;
+		height: 55px;
+	}
+	.colors {
+		font-size: 18px;
+		color: gray;
+		float: left;
+	}
+	.ShiftHeading {
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.OnefeedMarginstyle {
+		margin-top: 20px;
+	}
+	.OnefeedMarginstyle1 p {
+		margin-top: 121px;
+	}
+	.OnefeedMarginstyle2 {
+		margin-top: 67px;
+	}
+	.onefeedIconHeadingstyle {
+		color: #0066ff;
+		font-size: 18px;
+	}
+	.OnefeedArticleSectionContent {
+		font-size: 18px;
+		text-align: justify;
+	}
+	.blurImg1 {
+		width: 92%;
+		height: 498px;
+		position: absolute;
+		filter: blur(7px);
+	}
+	.withoutBlur1 {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.blurImg {
+		background-repeat: no-repeat;
+		width: 91%;
+		height: 232px;
+		position: absolute;
+		display: inline-block;
+		filter: blur(7px);
+	}
+	.withoutBlur {
+		background-repeat: no-repeat;
+		/* background-position: center center; */
+		filter: none;
+		margin: -2px;
+		position: relative;
+		display: block;
+		/* margin-left: 215px; */
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.advertisementspanStyle {
+		font-size: 12px;
+		margin-left: 112px;
+		color: gray;
+		background-color: white;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.wf-separator-line {
+		border-top-style: dashed;
+		border-top-width: thin;
+		border-color: lightgray;
+		position: absolute;
+		width: 91%;
+		top: 7.2px;
+		z-index: -9;
+	}
+	.advertisementbottomline {
+		margin-top: 112px;
+	}
+	.advertisementRow {
+		margin-top: 17px;
+	}
+	.blurImg2 {
+		background-repeat: no-repeat;
+		width: 91%;
+		height: 125px;
+		position: absolute;
+		display: inline-block;
+		filter: blur(5px);
+	}
+	.blurImg3 {
+		background-repeat: no-repeat;
+		width: 91%;
+		height: 261px;
+		position: absolute;
+		display: inline-block;
+		filter: blur(7px);
+	}
+	.MusicCelebbtn1style,
+	.MusicCelebbtn1style:hover {
+		height: 32px;
+		padding-top: 3px;
+		padding-left: 2px;
+		font-size: 20px;
+		border-radius: 10px;
+		margin-left: 7px;
+		color: #0066ff;
+		box-shadow: none;
+	}
+	.likedThestorystyle {
+		font-size: 27px;
+		color: #0044cc;
+		font-weight: bold;
+		line-height: 1.1;
+		float: left;
+	}
+	.dropdowndotToggle {
+		float: right;
+		margin-top: 10px;
+	}
+	.Social a {
+		width: 79px;
+		font-size: 19px;
+		text-align: left;
+		float: right;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+	.articleSection select,
+	article {
+		float: right;
+		font-size: 17px;
+	}
+	.OnefeedTextarea textarea {
+		width: 93%;
+		height: 63px;
+		margin: auto;
+	}
+	.wf-separator-line3 {
+		border-top-style: solid;
+		border-top-width: thin;
+		border-color: orange;
+		position: absolute;
+		width: 90%;
+		top: 21.2px;
+		z-index: -9;
+	}
+	.OnefeedUpnextspan {
+		font-size: 28px;
+		margin-left: 96px;
+		color: #c0052c;
+		background-color: white;
+	}
+	.OnefeedUpnextstyle {
+		font-size: 28px;
+		background-color: white;
+		padding-right: 10px;
+	}
+	.OnefeedUpnextImg {
+		clear: both;
+		height: 243px;
+		width: 116px;
+		margin-right: 20px;
+		display: inline-block;
+	}
+	.OnefeedUpnextbold,
+	.OnefeedUpnextbold:hover {
+		font-size: 20px;
+		text-align: left;
+		color: black;
+		box-shadow: none;
+		line-height: 1.01;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.Onefeedupnextpara {
+		font-size: 13px;
+		margin-top: 14px;
+		color: gray;
+	}
+	.btncolor {
+		background-color: #e6b800;
+		color: black;
+		font-size: 12px;
+	}
+	.OnefeedUpnextbtn {
+		margin-top: 4px;
+		margin-left: 67px;
+	}
+	.wf-separator-line4 {
+		border-top-style: solid;
+		border-top-width: thin;
+		border-color: orange;
+		position: absolute;
+		width: 78%;
+		margin-left: 25px;
+		/* margin-top: 11px; */
+		top: 214.4px;
+		z-index: -5;
+	}
+	.Onefeedendseparator {
+		margin-top: 941px;
+	}
+	.wittyfeedSection {
+		border: 2px solid #333;
+		position: relative;
+		border-left: 0;
+		display: inline-block;
+		padding: 5px;
+		padding-right: 14px;
+		margin-left: 0;
+		font-size: 1.3em;
+		margin-top: 15px;
+		font-weight: 600;
+		float: left;
+	}
+	.wittyfeedSection::after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 50%;
+		top: -3px;
+		left: 0;
+		border: 2px solid #fff;
+	}
+	.morefromwittyfeedStyle {
+		color: #e60073;
+		font-size: 25px;
+	}
+	.morefromwittyfeedbold {
+		font-size: 25px;
+	}
+	.OnefeedPopularcategorycolstyle {
+		margin-top: 10px;
+		margin-left: 10px;
+		/* padding-left: 10; */
+		height: 564px;
+		width: 345px;
+	}
+	.OnefeedPopularcategorycolstyle1 {
+		margin-top: 10px;
+		margin-left: 25px;
+		/* padding-left: 10; */
+		height: 564px;
+		width: 345px;
+	}
+	.UPNEXTimgstyle {
+		clear: both;
+		height: 110px;
+		width: 107px;
+		margin-right: 20px;
+		display: inline-block;
+		float: left;
+	}
+	.UPNEXTanchor,
+	.UPNEXTanchor:hover {
+		color: gray;
+		box-shadow: none;
+		font-size: 17px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.morefromTablestyle {
+		height: 220px;
+		width: 340px;
+		margin-left: 16px;
+		border: 1px solid lightgray;
+	}
+	.OnefeedTrendingImgstyle {
+		height: 219px;
+		width: 127px;
+	}
+	.morefromTitlestyle {
+		margin-left: 10px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.morefromParastyle {
+		margin-left: 10px;
+		font-size: 15px;
+	}
+
+
+
+
+}
+	
+
+
+
+
+@media only screen (max-width: 810px) {
+
+	.container1{
+		width: 100%;
+	}
+	.containerfluidstyle{
+		display: none;
+	}
+	
+}
+
+@media only screen and(min-width: 400px)  {
+	.blurImg {
+    background-repeat: no-repeat;
+    width: 91%;
+    height: 244px;
+    position: absolute;
+    display: inline-block;
+    filter: blur(7px);
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.input-group{
+		display: none;
+	}
+}
