@@ -1,0 +1,10 @@
+ul {
+  float: right !important; }
+
+.bg-cover {
+  background-image: url("assets/images/header-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px; }
+
+/*# sourceMappingURL=style.css.map */
